@@ -16,7 +16,7 @@
 
 ## 仓库内容
 
-- `paper/` —— 研究论文
+- `paper/` —— 探索性普查（草稿）
 - `research/` —— melody / harmony / groove 三份 grammar 报告（md + json）和研究词典
 - `audio/` —— 生成样本：`formula_targeted_v04_preview.mp3`、`formula_targeted_v05_preview.mp3`（公式基线）、`song020_v3_final.mp3`（仿写样例）
 
