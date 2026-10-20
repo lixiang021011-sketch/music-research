@@ -1,0 +1,1108 @@
+{
+  "version": "harmony_grammar_v1.2",
+  "cohort": {
+    "songs": 33,
+    "criteria": "healthState=usable, firstMeter=4/4"
+  },
+  "evidencePolicy": {
+    "root": "derived from non-bass harmonic material",
+    "bass": "authored symbolic; never used to choose primary root",
+    "voicing": "authored sounding pitches around derived root changes",
+    "cadence": "phrase-boundary/root-return proxies unless tonic independently reliable"
+  },
+  "bassRealization": {
+    "rootRatePerSong": {
+      "n": 31,
+      "p10": 0.47750865051903113,
+      "p25": 0.5952070115334404,
+      "median": 0.6703910614525139,
+      "p75": 0.8042813215776098,
+      "p90": 0.937888198757764,
+      "mean": 0.6874950840320466
+    },
+    "thirdRatePerSong": {
+      "n": 31,
+      "p10": 0.01904761904761905,
+      "p25": 0.04257515372981088,
+      "median": 0.06593406593406594,
+      "p75": 0.1259981359167615,
+      "p90": 0.15703971119133575,
+      "mean": 0.08356377198587443
+    },
+    "fifthRatePerSong": {
+      "n": 31,
+      "p10": 0.015296367112810707,
+      "p25": 0.028558945940352732,
+      "median": 0.04498269896193772,
+      "p75": 0.08295705771764719,
+      "p90": 0.1447084233261339,
+      "mean": 0.06529308853138668
+    },
+    "otherRatePerSong": {
+      "n": 31,
+      "p10": 0.021032504780114758,
+      "p25": 0.0642535874919683,
+      "median": 0.14968152866242035,
+      "p75": 0.2170718170718171,
+      "p90": 0.2692307692307693,
+      "mean": 0.1636480554506923
+    },
+    "pedalAcrossRootChangeRatePerSong": {
+      "n": 31,
+      "p10": 0.057692307692307696,
+      "p25": 0.12964691902902734,
+      "median": 0.27631578947368424,
+      "p75": 0.43621951219512195,
+      "p90": 0.8051948051948052,
+      "mean": 0.32180645594382395
+    }
+  },
+  "voiceLeading": {
+    "rootChangeWithAnyCommonPcPerSong": {
+      "n": 33,
+      "p10": 0.2777954869557923,
+      "p25": 0.41714285714285715,
+      "median": 0.5730337078651685,
+      "p75": 0.7371134020618557,
+      "p90": 0.8620923748333131,
+      "mean": 0.5660768679387688
+    },
+    "rootChangeWithSustainedExactPitchPerSong": {
+      "n": 33,
+      "p10": 0.25997003638439037,
+      "p25": 0.3287671232876712,
+      "median": 0.49056603773584906,
+      "p75": 0.6168831168831169,
+      "p90": 0.8438470529303724,
+      "mean": 0.49958202248321554
+    },
+    "chordalPartNearestPitchDistancePerSong": {
+      "n": 29,
+      "p10": 0.0,
+      "p25": 0.375,
+      "median": 1.25,
+      "p75": 1.6666666666666667,
+      "p90": 2.0,
+      "mean": 1.1017241379310345
+    },
+    "movingVoiceDistancePerSong": {
+      "n": 29,
+      "p10": 0.0,
+      "p25": 0.6666666666666666,
+      "median": 1.6666666666666667,
+      "p75": 2.0,
+      "p90": 2.05,
+      "mean": 1.3663793103448276
+    },
+    "topVoiceMovePerSong": {
+      "n": 29,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 1.0,
+      "p75": 2.0,
+      "p90": 2.0,
+      "mean": 1.103448275862069
+    },
+    "voicingCenterMovePerSong": {
+      "n": 29,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 1.5,
+      "p75": 2.0,
+      "p90": 2.0,
+      "mean": 1.1810344827586208
+    },
+    "byRootMotion": {
+      "1": {
+        "n": 93,
+        "nearestDistance": {
+          "n": 93,
+          "p10": 1.0,
+          "p25": 1.125,
+          "median": 1.3333333333333333,
+          "p75": 1.6666666666666665,
+          "p90": 6.0,
+          "mean": 2.1344982078853048
+        },
+        "movingVoiceDistance": {
+          "n": 93,
+          "p10": 1.2,
+          "p25": 1.3333333333333333,
+          "median": 1.3333333333333333,
+          "p75": 1.6666666666666665,
+          "p90": 6.0,
+          "mean": 2.2169354838709685
+        },
+        "commonToneRate": 0.23655913978494625,
+        "topMove": {
+          "n": 93,
+          "p10": 1.0,
+          "p25": 1.0,
+          "median": 2.0,
+          "p75": 2.0,
+          "p90": 7.0,
+          "mean": 3.096774193548387
+        }
+      },
+      "2": {
+        "n": 916,
+        "nearestDistance": {
+          "n": 916,
+          "p10": 0.0,
+          "p25": 1.3333333333333333,
+          "median": 1.75,
+          "p75": 2.0,
+          "p90": 2.125,
+          "mean": 1.7060901434809732
+        },
+        "movingVoiceDistance": {
+          "n": 914,
+          "p10": 0.0,
+          "p25": 1.5833333333333335,
+          "median": 2.0,
+          "p75": 2.0,
+          "p90": 2.3333333333333335,
+          "mean": 1.8163149942690426
+        },
+        "commonToneRate": 0.27510917030567683,
+        "topMove": {
+          "n": 916,
+          "p10": 0.0,
+          "p25": 1.0,
+          "median": 2.0,
+          "p75": 2.0,
+          "p90": 2.0,
+          "mean": 1.8820960698689957
+        }
+      },
+      "3": {
+        "n": 282,
+        "nearestDistance": {
+          "n": 282,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 1.25,
+          "p90": 2.6,
+          "mean": 0.7210106382978723
+        },
+        "movingVoiceDistance": {
+          "n": 279,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 2.0,
+          "p90": 2.7166666666666672,
+          "mean": 1.0689964157706093
+        },
+        "commonToneRate": 0.7978723404255319,
+        "topMove": {
+          "n": 282,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 1.0,
+          "p90": 3.0,
+          "mean": 0.7340425531914894
+        }
+      },
+      "4": {
+        "n": 114,
+        "nearestDistance": {
+          "n": 114,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 1.125,
+          "p90": 2.5,
+          "mean": 0.988669590643275
+        },
+        "movingVoiceDistance": {
+          "n": 114,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 2.0,
+          "p90": 3.5,
+          "mean": 1.4024122807017543
+        },
+        "commonToneRate": 0.8596491228070176,
+        "topMove": {
+          "n": 114,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 2.0,
+          "p90": 3.700000000000003,
+          "mean": 1.4736842105263157
+        }
+      },
+      "5": {
+        "n": 736,
+        "nearestDistance": {
+          "n": 736,
+          "p10": 0.0,
+          "p25": 1.0,
+          "median": 1.7083333333333335,
+          "p75": 2.6666666666666665,
+          "p90": 3.875,
+          "mean": 1.958027626811594
+        },
+        "movingVoiceDistance": {
+          "n": 725,
+          "p10": 0.0,
+          "p25": 1.5,
+          "median": 2.1666666666666665,
+          "p75": 3.5,
+          "p90": 5.0,
+          "mean": 2.6838390804597703
+        },
+        "commonToneRate": 0.7051630434782609,
+        "topMove": {
+          "n": 736,
+          "p10": 0.0,
+          "p25": 1.0,
+          "median": 2.0,
+          "p75": 4.0,
+          "p90": 5.0,
+          "mean": 2.410326086956522
+        }
+      },
+      "7": {
+        "n": 511,
+        "nearestDistance": {
+          "n": 511,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 1.0,
+          "p75": 2.0,
+          "p90": 3.5,
+          "mean": 1.4763302581306497
+        },
+        "movingVoiceDistance": {
+          "n": 506,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 1.5,
+          "p75": 2.8333333333333335,
+          "p90": 5.3125,
+          "mean": 2.1602437417654814
+        },
+        "commonToneRate": 0.812133072407045,
+        "topMove": {
+          "n": 511,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 1.0,
+          "p75": 2.5,
+          "p90": 5.0,
+          "mean": 2.003913894324853
+        }
+      },
+      "8": {
+        "n": 394,
+        "nearestDistance": {
+          "n": 394,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 1.6666666666666667,
+          "p90": 3.0,
+          "mean": 0.8871827411167513
+        },
+        "movingVoiceDistance": {
+          "n": 394,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 2.5,
+          "p90": 4.0,
+          "mean": 1.4549492385786802
+        },
+        "commonToneRate": 0.8401015228426396,
+        "topMove": {
+          "n": 394,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 3.0,
+          "p90": 4.0,
+          "mean": 1.2030456852791878
+        }
+      },
+      "9": {
+        "n": 420,
+        "nearestDistance": {
+          "n": 420,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.375,
+          "p75": 1.6333333333333333,
+          "p90": 3.0,
+          "mean": 1.1707142857142858
+        },
+        "movingVoiceDistance": {
+          "n": 406,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 1.0,
+          "p75": 3.0,
+          "p90": 4.25,
+          "mean": 1.9732348111658453
+        },
+        "commonToneRate": 0.7833333333333333,
+        "topMove": {
+          "n": 420,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 2.0,
+          "p90": 3.0,
+          "mean": 1.4404761904761905
+        }
+      },
+      "10": {
+        "n": 306,
+        "nearestDistance": {
+          "n": 306,
+          "p10": 0.0,
+          "p25": 1.3375,
+          "median": 1.6666666666666667,
+          "p75": 2.0,
+          "p90": 2.25,
+          "mean": 1.7202303143479614
+        },
+        "movingVoiceDistance": {
+          "n": 304,
+          "p10": 0.0,
+          "p25": 1.6666666666666667,
+          "median": 1.75,
+          "p75": 2.0,
+          "p90": 3.1666666666666665,
+          "mean": 2.0091008771929824
+        },
+        "commonToneRate": 0.32679738562091504,
+        "topMove": {
+          "n": 306,
+          "p10": 0.0,
+          "p25": 1.0,
+          "median": 2.0,
+          "p75": 2.0,
+          "p90": 4.0,
+          "mean": 2.1699346405228757
+        }
+      },
+      "11": {
+        "n": 106,
+        "nearestDistance": {
+          "n": 106,
+          "p10": 1.0,
+          "p25": 1.0,
+          "median": 1.25,
+          "p75": 1.5,
+          "p90": 2.0,
+          "mean": 1.3837264150943394
+        },
+        "movingVoiceDistance": {
+          "n": 104,
+          "p10": 1.0,
+          "p25": 1.0,
+          "median": 1.4666666666666668,
+          "p75": 1.6666666666666667,
+          "p90": 2.0,
+          "mean": 1.4693108974358975
+        },
+        "commonToneRate": 0.33962264150943394,
+        "topMove": {
+          "n": 106,
+          "p10": 1.0,
+          "p25": 1.0,
+          "median": 2.0,
+          "p75": 2.0,
+          "p90": 3.0,
+          "mean": 1.7735849056603774
+        }
+      }
+    }
+  },
+  "phraseLinking": {
+    "rootChangeAt4BarBoundaryPerSong": {
+      "n": 33,
+      "p10": 0.550337584396099,
+      "p25": 0.7692307692307693,
+      "median": 0.8333333333333334,
+      "p75": 0.9354838709677419,
+      "p90": 1.0,
+      "mean": 0.8008859181398266
+    },
+    "rootChangeInsidePhrasePerSong": {
+      "n": 33,
+      "p10": 0.5725806451612904,
+      "p25": 0.6379310344827587,
+      "median": 0.7767857142857143,
+      "p75": 0.8933333333333333,
+      "p90": 0.9355201958384333,
+      "mean": 0.7531026429677656
+    },
+    "boundaryReturnsToPhraseStartRootPerSong": {
+      "n": 33,
+      "p10": 0.08506787330316742,
+      "p25": 0.21428571428571427,
+      "median": 0.36,
+      "p75": 0.5217391304347826,
+      "p90": 0.5587804878048781,
+      "mean": 0.373380318522778
+    },
+    "exact4BarLoopRepeatsAcrossBoundaryPerSong": {
+      "n": 33,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.10344827586206896,
+      "p75": 0.23333333333333334,
+      "p90": 0.38516746411483266,
+      "mean": 0.1517104019767589
+    },
+    "normalized4BarShapeRepeatsAcrossBoundaryPerSong": {
+      "n": 33,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.10344827586206896,
+      "p75": 0.23333333333333334,
+      "p90": 0.38516746411483266,
+      "mean": 0.1548600978093816
+    },
+    "reliableTonicSongsBoundaryArrivalRate": 0.29285714285714287,
+    "reliableTonicSongsInsideArrivalRate": 0.2511961722488038,
+    "reliableTonicBoundaryN": 140,
+    "reliableTonicInsideN": 418
+  },
+  "songs": [
+    {
+      "songId": "song008",
+      "title": "SAYONARA",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.031606650924832745,
+        "1": 0.12049390003935458,
+        "2": 0.2737389770723104,
+        "3": 0.09131575495211858
+      },
+      "rootTransitions": 164,
+      "chordalParts": 1
+    },
+    {
+      "songId": "song009",
+      "title": "未来予想図II",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.10402116402116403,
+        "1": 0.10607142857142858,
+        "2": 0.2392240376111344,
+        "3": 0.16097030209933438
+      },
+      "rootTransitions": 159,
+      "chordalParts": 7
+    },
+    {
+      "songId": "song010",
+      "title": "LOVE SONG",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.13245550745550747,
+        "1": 0.08754208754208755,
+        "2": 0.15067886658795748,
+        "3": 0.10874218374218375
+      },
+      "rootTransitions": 159,
+      "chordalParts": 4
+    },
+    {
+      "songId": "song012",
+      "title": "DESIRE -情熱-",
+      "best4BarPhase": 1,
+      "phaseTurnover": {
+        "0": 0.15645994832041343,
+        "1": 0.19017165005537098,
+        "2": 0.16572871572871573,
+        "3": 0.11177849927849928
+      },
+      "rootTransitions": 146,
+      "chordalParts": 5
+    },
+    {
+      "songId": "song014",
+      "title": "青いイナズマ",
+      "best4BarPhase": 3,
+      "phaseTurnover": {
+        "0": 0.13448472823472823,
+        "1": 0.1475170068027211,
+        "2": 0.12987514029180697,
+        "3": 0.1548500881834215
+      },
+      "rootTransitions": 175,
+      "chordalParts": 4
+    },
+    {
+      "songId": "song015",
+      "title": "DANDELION",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.09654195011337868,
+        "1": 0.14705215419501133,
+        "2": 0.2303854875283447,
+        "3": 0.20538548752834465
+      },
+      "rootTransitions": 83,
+      "chordalParts": 3
+    },
+    {
+      "songId": "song016",
+      "title": "SUMMER CANDLES",
+      "best4BarPhase": 1,
+      "phaseTurnover": {
+        "0": 0.054099567099567106,
+        "1": 0.11847563547563547,
+        "2": 0.07124041535806241,
+        "3": 0.10255672105672108
+      },
+      "rootTransitions": 218,
+      "chordalParts": 2
+    },
+    {
+      "songId": "song020",
+      "title": "魂のルフラン",
+      "best4BarPhase": 3,
+      "phaseTurnover": {
+        "0": 0.1417075818238609,
+        "1": 0.19870156298727726,
+        "2": 0.1783602056857871,
+        "3": 0.28133416970626274
+      },
+      "rootTransitions": 113,
+      "chordalParts": 1
+    },
+    {
+      "songId": "song021",
+      "title": "Give a Reason",
+      "best4BarPhase": 3,
+      "phaseTurnover": {
+        "0": 0.1875009493430546,
+        "1": 0.18228182636077372,
+        "2": 0.13448403448403448,
+        "3": 0.2069221376913685
+      },
+      "rootTransitions": 243,
+      "chordalParts": 7
+    },
+    {
+      "songId": "song022",
+      "title": "JUST COMMUNICATION",
+      "best4BarPhase": 1,
+      "phaseTurnover": {
+        "0": 0.05936507936507936,
+        "1": 0.2278561121418264,
+        "2": 0.05859410430839003,
+        "3": 0.1253823953823954
+      },
+      "rootTransitions": 159,
+      "chordalParts": 4
+    },
+    {
+      "songId": "song023",
+      "title": "夜明け前",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.0858678955453149,
+        "1": 0.2017025089605735,
+        "2": 0.39324494949494954,
+        "3": 0.12311827956989246
+      },
+      "rootTransitions": 143,
+      "chordalParts": 3
+    },
+    {
+      "songId": "song024",
+      "title": "INVOKE",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.11712454212454215,
+        "1": 0.11733821733821735,
+        "2": 0.18683531746031745,
+        "3": 0.14255189255189257
+      },
+      "rootTransitions": 280,
+      "chordalParts": 5
+    },
+    {
+      "songId": "song028",
+      "title": "君が好きだと叫びたい",
+      "best4BarPhase": 0,
+      "phaseTurnover": {
+        "0": 0.19871794871794873,
+        "1": 0.04487179487179487,
+        "2": 0.16666666666666669,
+        "3": 0.08333333333333334
+      },
+      "rootTransitions": 32,
+      "chordalParts": 1
+    },
+    {
+      "songId": "song029",
+      "title": "灌篮高手 ED",
+      "best4BarPhase": 1,
+      "phaseTurnover": {
+        "0": 0.19840102707749765,
+        "1": 0.32426647426647426,
+        "2": 0.2704481792717087,
+        "3": 0.29823762838468726
+      },
+      "rootTransitions": 101,
+      "chordalParts": 0
+    },
+    {
+      "songId": "song031",
+      "title": "勇気100%",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.097255291005291,
+        "1": 0.17705026455026454,
+        "2": 0.27882882882882887,
+        "3": 0.205489417989418
+      },
+      "rootTransitions": 153,
+      "chordalParts": 3
+    },
+    {
+      "songId": "song032",
+      "title": "Open Door",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.05098039215686273,
+        "1": 0.05490196078431371,
+        "2": 0.09142857142857141,
+        "3": 0.05333333333333333
+      },
+      "rootTransitions": 194,
+      "chordalParts": 2
+    },
+    {
+      "songId": "song033",
+      "title": "Don't Stop Me Now",
+      "best4BarPhase": 1,
+      "phaseTurnover": {
+        "0": 0.10268817204301074,
+        "1": 0.13440860215053765,
+        "2": 0.11935483870967742,
+        "3": 0.07043010752688172
+      },
+      "rootTransitions": 151,
+      "chordalParts": 0
+    },
+    {
+      "songId": "song034",
+      "title": "Another One Bites the Dust",
+      "best4BarPhase": 3,
+      "phaseTurnover": {
+        "0": 0.05666666666666668,
+        "1": 0.01647058823529412,
+        "2": 0.022702104097452935,
+        "3": 0.10112044817927171
+      },
+      "rootTransitions": 22,
+      "chordalParts": 3
+    },
+    {
+      "songId": "song036",
+      "title": "It's My Life",
+      "best4BarPhase": 3,
+      "phaseTurnover": {
+        "0": 0.2652210884353742,
+        "1": 0.20965608465608465,
+        "2": 0.2535714285714286,
+        "3": 0.29587327355184495
+      },
+      "rootTransitions": 108,
+      "chordalParts": 1
+    },
+    {
+      "songId": "song038",
+      "title": "One",
+      "best4BarPhase": 3,
+      "phaseTurnover": {
+        "0": 0.06936813186813187,
+        "1": 0.013333333333333334,
+        "2": 0.06135531135531136,
+        "3": 0.07664835164835163
+      },
+      "rootTransitions": 87,
+      "chordalParts": 1
+    },
+    {
+      "songId": "song039",
+      "title": "Every Breath You Take",
+      "best4BarPhase": 0,
+      "phaseTurnover": {
+        "0": 0.10517241379310344,
+        "1": 0.07087585034013605,
+        "2": 0.10270935960591134,
+        "3": 0.09926108374384235
+      },
+      "rootTransitions": 46,
+      "chordalParts": 2
+    },
+    {
+      "songId": "song041",
+      "title": "Sweet Child O' Mine",
+      "best4BarPhase": 1,
+      "phaseTurnover": {
+        "0": 0.17839506172839503,
+        "1": 0.21825396825396826,
+        "2": 0.08768077601410934,
+        "3": 0.1421164021164021
+      },
+      "rootTransitions": 201,
+      "chordalParts": 3
+    },
+    {
+      "songId": "song042",
+      "title": "November Rain",
+      "best4BarPhase": 0,
+      "phaseTurnover": {
+        "0": 0.13401360544217686,
+        "1": 0.09206349206349206,
+        "2": 0.08161683277962348,
+        "3": 0.0395124716553288
+      },
+      "rootTransitions": 167,
+      "chordalParts": 3
+    },
+    {
+      "songId": "song043",
+      "title": "I Don't Want to Miss a Thing",
+      "best4BarPhase": 1,
+      "phaseTurnover": {
+        "0": 0.03425925925925925,
+        "1": 0.07114845938375351,
+        "2": 0.0,
+        "3": 0.05026455026455026
+      },
+      "rootTransitions": 103,
+      "chordalParts": 2
+    },
+    {
+      "songId": "song045",
+      "title": "Jump",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.013818860877684408,
+        "1": 0.022156862745098038,
+        "2": 0.049999999999999996,
+        "3": 0.03337068160597573
+      },
+      "rootTransitions": 106,
+      "chordalParts": 2
+    },
+    {
+      "songId": "song048",
+      "title": "Dreams",
+      "best4BarPhase": 3,
+      "phaseTurnover": {
+        "0": 0.05156249999999999,
+        "1": 0.04739583333333334,
+        "2": 0.17087053571428568,
+        "3": 0.17418154761904764
+      },
+      "rootTransitions": 178,
+      "chordalParts": 1
+    },
+    {
+      "songId": "song050",
+      "title": "Money for Nothing",
+      "best4BarPhase": 3,
+      "phaseTurnover": {
+        "0": 0.1236140724946695,
+        "1": 0.08896588486140726,
+        "2": 0.06677170868347339,
+        "3": 0.12834044065387348
+      },
+      "rootTransitions": 110,
+      "chordalParts": 5
+    },
+    {
+      "songId": "song051",
+      "title": "Still Loving You",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.15038402457757297,
+        "1": 0.21052227342549926,
+        "2": 0.31036866359447,
+        "3": 0.0651305683563748
+      },
+      "rootTransitions": 91,
+      "chordalParts": 0
+    },
+    {
+      "songId": "song052",
+      "title": "Down Under",
+      "best4BarPhase": 3,
+      "phaseTurnover": {
+        "0": 0.16777447089947092,
+        "1": 0.08655969634230502,
+        "2": 0.11947751322751321,
+        "3": 0.24407016594516595
+      },
+      "rootTransitions": 219,
+      "chordalParts": 1
+    },
+    {
+      "songId": "song053",
+      "title": "Listen to Your Heart",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.10350425436632332,
+        "1": 0.13982808379360104,
+        "2": 0.1449109319798975,
+        "3": 0.046975916803503014
+      },
+      "rootTransitions": 154,
+      "chordalParts": 4
+    },
+    {
+      "songId": "song054",
+      "title": "How Do You Do!",
+      "best4BarPhase": 3,
+      "phaseTurnover": {
+        "0": 0.021739130434782608,
+        "1": 0.06521739130434782,
+        "2": 0.11304347826086956,
+        "3": 0.22608695652173913
+      },
+      "rootTransitions": 107,
+      "chordalParts": 3
+    },
+    {
+      "songId": "song055",
+      "title": "Sleeping in My Car",
+      "best4BarPhase": 0,
+      "phaseTurnover": {
+        "0": 0.14086021505376342,
+        "1": 0.12089093701996928,
+        "2": 0.12369791666666664,
+        "3": 0.12079613095238094
+      },
+      "rootTransitions": 118,
+      "chordalParts": 3
+    },
+    {
+      "songId": "song057",
+      "title": "Let It Be",
+      "best4BarPhase": 2,
+      "phaseTurnover": {
+        "0": 0.03333333333333333,
+        "1": 0.01176470588235294,
+        "2": 0.2555555555555556,
+        "3": 0.033333333333333326
+      },
+      "rootTransitions": 131,
+      "chordalParts": 2
+    }
+  ],
+  "song021": {
+    "loopVoicings": [
+      {
+        "startBar": 22,
+        "bars": [
+          {
+            "bar": 22,
+            "root": 10,
+            "rootName": "Bb",
+            "bassPc": 10,
+            "bassName": "Bb",
+            "voicingPitches": [
+              65,
+              70,
+              73
+            ],
+            "voicingNames": [
+              "F4",
+              "Bb4",
+              "Db5"
+            ],
+            "commonWithPrevious": [],
+            "commonPcWithPrevious": []
+          },
+          {
+            "bar": 23,
+            "root": 6,
+            "rootName": "Gb",
+            "bassPc": 10,
+            "bassName": "Bb",
+            "voicingPitches": [
+              66,
+              70,
+              73
+            ],
+            "voicingNames": [
+              "Gb4",
+              "Bb4",
+              "Db5"
+            ],
+            "commonWithPrevious": [
+              70,
+              73
+            ],
+            "commonPcWithPrevious": [
+              1,
+              10
+            ]
+          },
+          {
+            "bar": 24,
+            "root": 8,
+            "rootName": "Ab",
+            "bassPc": 10,
+            "bassName": "Bb",
+            "voicingPitches": [
+              68,
+              72,
+              75
+            ],
+            "voicingNames": [
+              "Ab4",
+              "C5",
+              "Eb5"
+            ],
+            "commonWithPrevious": [],
+            "commonPcWithPrevious": []
+          },
+          {
+            "bar": 25,
+            "root": 5,
+            "rootName": "F",
+            "bassPc": 10,
+            "bassName": "Bb",
+            "voicingPitches": [
+              65,
+              68,
+              72,
+              75
+            ],
+            "voicingNames": [
+              "F4",
+              "Ab4",
+              "C5",
+              "Eb5"
+            ],
+            "commonWithPrevious": [
+              68,
+              72,
+              75
+            ],
+            "commonPcWithPrevious": [
+              0,
+              3,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "startBar": 72,
+        "bars": [
+          {
+            "bar": 72,
+            "root": 10,
+            "rootName": "Bb",
+            "bassPc": 10,
+            "bassName": "Bb",
+            "voicingPitches": [
+              65,
+              70,
+              73
+            ],
+            "voicingNames": [
+              "F4",
+              "Bb4",
+              "Db5"
+            ],
+            "commonWithPrevious": [],
+            "commonPcWithPrevious": []
+          },
+          {
+            "bar": 73,
+            "root": 6,
+            "rootName": "Gb",
+            "bassPc": 10,
+            "bassName": "Bb",
+            "voicingPitches": [
+              66,
+              70,
+              73
+            ],
+            "voicingNames": [
+              "Gb4",
+              "Bb4",
+              "Db5"
+            ],
+            "commonWithPrevious": [
+              70,
+              73
+            ],
+            "commonPcWithPrevious": [
+              1,
+              10
+            ]
+          },
+          {
+            "bar": 74,
+            "root": 8,
+            "rootName": "Ab",
+            "bassPc": 10,
+            "bassName": "Bb",
+            "voicingPitches": [
+              68,
+              72,
+              75
+            ],
+            "voicingNames": [
+              "Ab4",
+              "C5",
+              "Eb5"
+            ],
+            "commonWithPrevious": [],
+            "commonPcWithPrevious": []
+          },
+          {
+            "bar": 75,
+            "root": 5,
+            "rootName": "F",
+            "bassPc": 10,
+            "bassName": "Bb",
+            "voicingPitches": [
+              65,
+              68,
+              72,
+              75
+            ],
+            "voicingNames": [
+              "F4",
+              "Ab4",
+              "C5",
+              "Eb5"
+            ],
+            "commonWithPrevious": [
+              68,
+              72,
+              75
+            ],
+            "commonPcWithPrevious": [
+              0,
+              3,
+              8
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

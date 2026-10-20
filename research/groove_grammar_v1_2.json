@@ -1,0 +1,6848 @@
+{
+  "cohort": {
+    "songs": 33,
+    "criteria": "healthState=usable, firstMeter=4/4; authored MIDI note events; song-level aggregation"
+  },
+  "summary": {
+    "drum_adj_sim": {
+      "n": 32,
+      "p10": 0.8072222222222223,
+      "p25": 0.8684027777777779,
+      "median": 0.9249999999999999,
+      "p75": 1.0,
+      "p90": 1.0,
+      "mean": 0.9184391852360602
+    },
+    "drum_exact_repeat": {
+      "n": 32,
+      "p10": 0.1424315619967794,
+      "p25": 0.29093667697240355,
+      "median": 0.39988876529477196,
+      "p75": 0.5117639961389961,
+      "p90": 0.6788845666331572,
+      "mean": 0.4072091683341108
+    },
+    "bass_adj_sim": {
+      "n": 31,
+      "p10": 0.5,
+      "p25": 0.6458333333333333,
+      "median": 0.8571428571428571,
+      "p75": 1.0,
+      "p90": 1.0,
+      "mean": 0.8001920122887866
+    },
+    "bass_exact_repeat": {
+      "n": 31,
+      "p10": 0.12605042016806722,
+      "p25": 0.19087421211290764,
+      "median": 0.38405797101449274,
+      "p75": 0.6321020724658113,
+      "p90": 0.7664670658682635,
+      "mean": 0.4314130122226988
+    },
+    "guitar_adj_sim": {
+      "n": 32,
+      "p10": 0.44687499999999997,
+      "p25": 0.625,
+      "median": 0.8660714285714286,
+      "p75": 1.0,
+      "p90": 1.0,
+      "mean": 0.7923069768772895
+    },
+    "guitar_exact_repeat": {
+      "n": 32,
+      "p10": 0.1716941414472785,
+      "p25": 0.26853017546620506,
+      "median": 0.4457516339869281,
+      "p75": 0.696635838150289,
+      "p90": 0.7992682926829269,
+      "mean": 0.4713993744461667
+    },
+    "keys_adj_sim": {
+      "n": 25,
+      "p10": 0.39642857142857146,
+      "p25": 0.5714285714285714,
+      "median": 0.875,
+      "p75": 1.0,
+      "p90": 1.0,
+      "mean": 0.7535962925962926
+    },
+    "keys_exact_repeat": {
+      "n": 25,
+      "p10": 0.028800000000000023,
+      "p25": 0.25510204081632654,
+      "median": 0.4016393442622951,
+      "p75": 0.6686390532544378,
+      "p90": 0.7550057099352875,
+      "mean": 0.4376119726305598
+    },
+    "db_adj_sim": {
+      "n": 30,
+      "p10": 0.76825,
+      "p25": 0.8118571428571428,
+      "median": 0.8613333333333333,
+      "p75": 0.92625,
+      "p90": 0.9549999999999998,
+      "mean": 0.8571144300144299
+    },
+    "db_exact_repeat": {
+      "n": 30,
+      "p10": 0.05690257061250397,
+      "p25": 0.10064081498521196,
+      "median": 0.15470056109011793,
+      "p75": 0.35680555555555554,
+      "p90": 0.39668149796069707,
+      "mean": 0.21120150229521018
+    },
+    "db_family_run_median": {
+      "n": 30,
+      "p10": 3.0,
+      "p25": 4.0,
+      "median": 7.0,
+      "p75": 7.0,
+      "p90": 14.650000000000002,
+      "mean": 10.266666666666667
+    },
+    "db_family_run_p75": {
+      "n": 30,
+      "p10": 6.575000000000001,
+      "p25": 7.0,
+      "median": 7.625,
+      "p75": 9.0,
+      "p90": 24.525000000000006,
+      "mean": 13.141666666666667
+    },
+    "db_joint_active_in_stable_runs": {
+      "n": 30,
+      "p10": 0.6404761904761905,
+      "p25": 0.776115450814246,
+      "median": 0.8404397365141534,
+      "p75": 0.9001424894282037,
+      "p90": 0.9327668845315905,
+      "mean": 0.821059585199312
+    },
+    "bass_kick_overlap": {
+      "n": 29,
+      "p10": 0.36000000000000004,
+      "p25": 0.375,
+      "median": 0.5,
+      "p75": 0.5,
+      "p90": 0.8399999999999999,
+      "mean": 0.5299261083743843
+    },
+    "bass_snare_overlap": {
+      "n": 29,
+      "p10": 0.0,
+      "p25": 0.16666666666666666,
+      "median": 0.25,
+      "p75": 0.25,
+      "p90": 0.2952380952380952,
+      "mean": 0.19514230979748218
+    },
+    "bass_offkick": {
+      "n": 29,
+      "p10": 0.16000000000000006,
+      "p25": 0.5,
+      "median": 0.5,
+      "p75": 0.625,
+      "p90": 0.6399999999999999,
+      "mean": 0.47007389162561575
+    },
+    "gk_jaccard": {
+      "n": 24,
+      "p10": 0.20666666666666667,
+      "p25": 0.25,
+      "median": 0.32291666666666663,
+      "p75": 0.38125,
+      "p90": 0.5,
+      "mean": 0.330479532042032
+    },
+    "gk_exact_rate": {
+      "n": 24,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.01803457193412277,
+      "p75": 0.06720890410958905,
+      "p90": 0.18050602409638553,
+      "mean": 0.06272739331242023
+    },
+    "guitar_art_ratio": {
+      "n": 32,
+      "p10": 0.682385471075706,
+      "p25": 0.8697916666666666,
+      "median": 0.9946490392169993,
+      "p75": 1.0537858247044452,
+      "p90": 3.44002201614028,
+      "mean": 1.8043573476007384
+    },
+    "keys_art_ratio": {
+      "n": 25,
+      "p10": 0.6736840261497145,
+      "p25": 0.8571418775521703,
+      "median": 0.9375,
+      "p75": 1.0,
+      "p90": 1.3956978184195548,
+      "mean": 1.2417907440239353
+    },
+    "bass_art_ratio": {
+      "n": 31,
+      "p10": 0.6041666666666666,
+      "p25": 0.7270833333333333,
+      "median": 0.8666666666666667,
+      "p75": 0.9583333333333334,
+      "p90": 1.0,
+      "mean": 0.8227079518028998
+    },
+    "fill_pos1": {
+      "n": 33,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.03225806451612903,
+      "p90": 0.20281224152191896,
+      "mean": 0.042687283948940835
+    },
+    "fill_pos2": {
+      "n": 33,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.044444444444444446,
+      "p90": 0.08246844319775598,
+      "mean": 0.03255139978440449
+    },
+    "fill_pos3": {
+      "n": 33,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.05714285714285714,
+      "p90": 0.12021116138763199,
+      "mean": 0.04506175623608628
+    },
+    "fill_pos4": {
+      "n": 33,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.043478260869565216,
+      "p90": 0.12526315789473685,
+      "mean": 0.030837917218014398
+    },
+    "end_drum_change": {
+      "n": 32,
+      "p10": 0.0,
+      "p25": 0.046526054590570715,
+      "median": 0.09449404761904762,
+      "p75": 0.1793831168831169,
+      "p90": 0.2581159420289856,
+      "mean": 0.11492196267731289
+    },
+    "end_bass_change": {
+      "n": 31,
+      "p10": 0.027777777777777776,
+      "p25": 0.0898989898989899,
+      "median": 0.14634146341463414,
+      "p75": 0.29772727272727273,
+      "p90": 0.3877551020408163,
+      "mean": 0.19588705582083124
+    },
+    "end_guitar_change": {
+      "n": 32,
+      "p10": 0.06575682382133995,
+      "p25": 0.11961206896551724,
+      "median": 0.24119574119574122,
+      "p75": 0.4696180555555556,
+      "p90": 0.540909090909091,
+      "mean": 0.283901577688428
+    },
+    "end_keys_change": {
+      "n": 25,
+      "p10": 0.07763975155279504,
+      "p25": 0.14285714285714285,
+      "median": 0.25,
+      "p75": 0.5,
+      "p90": 0.5749536178107607,
+      "mean": 0.30173801323028404
+    },
+    "boundary_drum_change": {
+      "n": 32,
+      "p10": 0.0,
+      "p25": 0.022388059701492536,
+      "median": 0.06559139784946236,
+      "p75": 0.146031746031746,
+      "p90": 0.2265437048917403,
+      "mean": 0.09522013364631693
+    },
+    "boundary_bass_change": {
+      "n": 31,
+      "p10": 0.0,
+      "p25": 0.037868162692847124,
+      "median": 0.15384615384615385,
+      "p75": 0.23669467787114845,
+      "p90": 0.2903225806451613,
+      "mean": 0.16938986458163183
+    },
+    "boundary_guitar_change": {
+      "n": 32,
+      "p10": 0.041555555555555554,
+      "p25": 0.10036057692307693,
+      "median": 0.17028985507246375,
+      "p75": 0.3805579773321709,
+      "p90": 0.4961538461538462,
+      "mean": 0.23354756482644548
+    },
+    "boundary_keys_change": {
+      "n": 25,
+      "p10": 0.03428571428571429,
+      "p25": 0.08695652173913043,
+      "median": 0.23076923076923078,
+      "p75": 0.3448275862068966,
+      "p90": 0.5475083056478406,
+      "mean": 0.26378789844015693
+    },
+    "interior_drum_change": {
+      "n": 32,
+      "p10": 0.046141215106732344,
+      "p25": 0.058403361344537816,
+      "median": 0.1,
+      "p75": 0.15736291690220464,
+      "p90": 0.18423423423423424,
+      "mean": 0.11154343854248204
+    },
+    "interior_bass_change": {
+      "n": 31,
+      "p10": 0.047619047619047616,
+      "p25": 0.0967741935483871,
+      "median": 0.17142857142857143,
+      "p75": 0.26045081967213113,
+      "p90": 0.4406779661016949,
+      "mean": 0.20633312650243266
+    },
+    "interior_guitar_change": {
+      "n": 32,
+      "p10": 0.09003456221198157,
+      "p25": 0.15467381455753548,
+      "median": 0.22682306387789714,
+      "p75": 0.3847242921013413,
+      "p90": 0.5487755102040817,
+      "mean": 0.2675514888216043
+    },
+    "interior_keys_change": {
+      "n": 25,
+      "p10": 0.0411764705882353,
+      "p25": 0.13559322033898305,
+      "median": 0.2413793103448276,
+      "p75": 0.39705882352941174,
+      "p90": 0.5186965108624095,
+      "mean": 0.288040644441035
+    },
+    "ctx_drum_change": {
+      "n": 32,
+      "p10": 0.0,
+      "p25": 0.08333333333333333,
+      "median": 0.14285714285714285,
+      "p75": 0.3333333333333333,
+      "p90": 0.5264705882352941,
+      "mean": 0.2283099457731811
+    },
+    "ctx_bass_change": {
+      "n": 31,
+      "p10": 0.0,
+      "p25": 0.09166666666666667,
+      "median": 0.29411764705882354,
+      "p75": 0.4083333333333333,
+      "p90": 0.6,
+      "mean": 0.28925620026189286
+    },
+    "ctx_guitar_change": {
+      "n": 32,
+      "p10": 0.08611111111111111,
+      "p25": 0.2230769230769231,
+      "median": 0.3722943722943723,
+      "p75": 0.5428571428571428,
+      "p90": 0.6625000000000001,
+      "mean": 0.37370862644300146
+    },
+    "ctx_keys_change": {
+      "n": 25,
+      "p10": 0.1,
+      "p25": 0.2,
+      "median": 0.3333333333333333,
+      "p75": 0.5,
+      "p90": 0.6352941176470589,
+      "mean": 0.36774922789628667
+    },
+    "ctx_layers_changed_mean": {
+      "n": 33,
+      "p10": 0.47333333333333333,
+      "p25": 0.8,
+      "median": 1.1176470588235294,
+      "p75": 1.5,
+      "p90": 1.9833333333333334,
+      "mean": 1.1340990065588996
+    },
+    "ctx_layers_changed_fraction": {
+      "n": 33,
+      "p10": 0.16666666666666666,
+      "p25": 0.20833333333333334,
+      "median": 0.2857142857142857,
+      "p75": 0.39999999999999997,
+      "p90": 0.49583333333333335,
+      "mean": 0.31108589700390055
+    },
+    "ctx_full_change_rate": {
+      "n": 33,
+      "p10": 0.0,
+      "p25": 0.0,
+      "median": 0.08333333333333333,
+      "p75": 0.21428571428571427,
+      "p90": 0.3333333333333333,
+      "mean": 0.1278305844482315
+    },
+    "ctx_partial_change_rate": {
+      "n": 33,
+      "p10": 0.3333333333333333,
+      "p25": 0.38461538461538464,
+      "median": 0.5238095238095238,
+      "p75": 0.6111111111111112,
+      "p90": 0.81,
+      "mean": 0.5306554037169011
+    },
+    "ctx_no_change_rate": {
+      "n": 33,
+      "p10": 0.0,
+      "p25": 0.16666666666666666,
+      "median": 0.3333333333333333,
+      "p75": 0.46153846153846156,
+      "p90": 0.6666666666666666,
+      "mean": 0.3415140118348674
+    }
+  },
+  "contexts": {
+    "sparse": {
+      "kick_bins": {
+        "n": 1036,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 2.0,
+        "p75": 4.0,
+        "p90": 4.0,
+        "mean": 2.0530888030888033
+      },
+      "snare_bins": {
+        "n": 1036,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 2.0,
+        "p90": 2.0,
+        "mean": 1.244208494208494
+      },
+      "pulse_bins": {
+        "n": 1036,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 4.0,
+        "p75": 8.0,
+        "p90": 12.0,
+        "mean": 4.5
+      },
+      "bass_bins": {
+        "n": 1036,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 3.0,
+        "p75": 6.0,
+        "p90": 8.0,
+        "mean": 3.382239382239382
+      },
+      "guitar_bins": {
+        "n": 1036,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 1.0,
+        "p75": 6.0,
+        "p90": 9.0,
+        "mean": 3.086872586872587
+      },
+      "keys_bins": {
+        "n": 1036,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 1.0,
+        "p75": 5.0,
+        "p90": 8.0,
+        "mean": 2.5106177606177607
+      },
+      "fill": {
+        "n": 1036,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "mean": 0.015444015444015444
+      },
+      "crash1": {
+        "n": 1036,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "mean": 0.07722007722007722
+      }
+    },
+    "dense": {
+      "kick_bins": {
+        "n": 1088,
+        "p10": 2.0,
+        "p25": 2.0,
+        "median": 3.0,
+        "p75": 4.0,
+        "p90": 5.0,
+        "mean": 3.2058823529411766
+      },
+      "snare_bins": {
+        "n": 1088,
+        "p10": 0.0,
+        "p25": 2.0,
+        "median": 2.0,
+        "p75": 2.0,
+        "p90": 4.0,
+        "mean": 2.1755514705882355
+      },
+      "pulse_bins": {
+        "n": 1088,
+        "p10": 4.0,
+        "p25": 7.0,
+        "median": 8.0,
+        "p75": 9.0,
+        "p90": 12.0,
+        "mean": 7.727941176470588
+      },
+      "bass_bins": {
+        "n": 1088,
+        "p10": 1.0,
+        "p25": 4.0,
+        "median": 6.0,
+        "p75": 8.0,
+        "p90": 9.0,
+        "mean": 5.625919117647059
+      },
+      "guitar_bins": {
+        "n": 1088,
+        "p10": 0.0,
+        "p25": 2.0,
+        "median": 5.0,
+        "p75": 8.0,
+        "p90": 13.0,
+        "mean": 5.770220588235294
+      },
+      "keys_bins": {
+        "n": 1088,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 1.0,
+        "p75": 5.0,
+        "p90": 9.0,
+        "mean": 3.072610294117647
+      },
+      "fill": {
+        "n": 1088,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "mean": 0.03860294117647059
+      },
+      "crash1": {
+        "n": 1088,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "p90": 1.0,
+        "mean": 0.20496323529411764
+      }
+    },
+    "middle": {
+      "kick_bins": {
+        "n": 2128,
+        "p10": 0.0,
+        "p25": 2.0,
+        "median": 3.0,
+        "p75": 4.0,
+        "p90": 5.0,
+        "mean": 2.9342105263157894
+      },
+      "snare_bins": {
+        "n": 2128,
+        "p10": 0.0,
+        "p25": 1.0,
+        "median": 2.0,
+        "p75": 2.0,
+        "p90": 4.0,
+        "mean": 2.1964285714285716
+      },
+      "pulse_bins": {
+        "n": 2128,
+        "p10": 0.0,
+        "p25": 4.0,
+        "median": 8.0,
+        "p75": 8.0,
+        "p90": 12.0,
+        "mean": 6.974154135338346
+      },
+      "bass_bins": {
+        "n": 2128,
+        "p10": 0.0,
+        "p25": 2.0,
+        "median": 5.0,
+        "p75": 8.0,
+        "p90": 8.0,
+        "mean": 5.050281954887218
+      },
+      "guitar_bins": {
+        "n": 2128,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 3.0,
+        "p75": 7.0,
+        "p90": 9.0,
+        "mean": 3.925281954887218
+      },
+      "keys_bins": {
+        "n": 2128,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 1.0,
+        "p75": 5.0,
+        "p90": 8.0,
+        "mean": 2.763157894736842
+      },
+      "fill": {
+        "n": 2128,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "mean": 0.042293233082706765
+      },
+      "crash1": {
+        "n": 2128,
+        "p10": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "p90": 1.0,
+        "mean": 0.16635338345864661
+      }
+    }
+  },
+  "songs": [
+    {
+      "songId": "song008",
+      "title": "SAYONARA",
+      "bars": 176,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.9333333333333332,
+      "drum_exact_repeat": 0.32,
+      "bass_adj_sim": 0.7272727272727273,
+      "bass_exact_repeat": 0.34285714285714286,
+      "guitar_adj_sim": 0.3333333333333333,
+      "guitar_exact_repeat": 0.3314285714285714,
+      "keys_adj_sim": 0.9166666666666666,
+      "keys_exact_repeat": 0.44,
+      "db_adj_sim": 0.8559999999999999,
+      "db_exact_repeat": 0.13714285714285715,
+      "db_family_run_median": 4.0,
+      "db_family_run_p75": 7.0,
+      "db_joint_active_in_stable_runs": 0.8527131782945736,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": null,
+      "bass_offkick": 0.5,
+      "gk_jaccard": 0.3333333333333333,
+      "gk_exact_rate": 0.0,
+      "guitar_art_ratio": 0.9465241451571367,
+      "keys_art_ratio": 0.6666666666666666,
+      "bass_art_ratio": 0.75,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.0,
+      "end_bass_change": 0.09090909090909091,
+      "end_guitar_change": 0.6363636363636364,
+      "end_keys_change": 0.0,
+      "boundary_drum_change": 0.0,
+      "boundary_bass_change": 0.06818181818181818,
+      "boundary_guitar_change": 0.6136363636363636,
+      "boundary_keys_change": 0.0,
+      "interior_drum_change": 0.04597701149425287,
+      "interior_bass_change": 0.3448275862068966,
+      "interior_guitar_change": 0.6551724137931034,
+      "interior_keys_change": 0.011494252873563218,
+      "context_changes": 13,
+      "ctx_drum_change": 0.07692307692307693,
+      "ctx_bass_change": 0.38461538461538464,
+      "ctx_guitar_change": 0.7692307692307693,
+      "ctx_keys_change": 0.07692307692307693,
+      "ctx_layers_changed_mean": 1.3076923076923077,
+      "ctx_layers_changed_fraction": 0.3269230769230769,
+      "ctx_full_change_rate": 0.07692307692307693,
+      "ctx_partial_change_rate": 0.6923076923076923,
+      "ctx_no_change_rate": 0.23076923076923078
+    },
+    {
+      "songId": "song009",
+      "title": "未来予想図II",
+      "bars": 120,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.9166666666666666,
+      "drum_exact_repeat": 0.47058823529411764,
+      "bass_adj_sim": 0.5454545454545454,
+      "bass_exact_repeat": 0.12605042016806722,
+      "guitar_adj_sim": 0.5,
+      "guitar_exact_repeat": 0.453781512605042,
+      "keys_adj_sim": 0.7142857142857143,
+      "keys_exact_repeat": 0.3949579831932773,
+      "db_adj_sim": 0.7749999999999999,
+      "db_exact_repeat": 0.11764705882352941,
+      "db_family_run_median": 3.0,
+      "db_family_run_p75": 4.75,
+      "db_joint_active_in_stable_runs": 0.7710843373493976,
+      "bass_kick_overlap": 0.42857142857142855,
+      "bass_snare_overlap": 0.14285714285714285,
+      "bass_offkick": 0.5714285714285714,
+      "gk_jaccard": 0.2,
+      "gk_exact_rate": 0.03636363636363636,
+      "guitar_art_ratio": 0.9673911361058875,
+      "keys_art_ratio": 0.9375,
+      "bass_art_ratio": 0.9166666666666666,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.03333333333333333,
+      "fill_pos3": 0.03333333333333333,
+      "fill_pos4": 0.1,
+      "end_drum_change": 0.23333333333333334,
+      "end_bass_change": 0.3,
+      "end_guitar_change": 0.5,
+      "end_keys_change": 0.16666666666666666,
+      "boundary_drum_change": 0.06666666666666667,
+      "boundary_bass_change": 0.23333333333333334,
+      "boundary_guitar_change": 0.2,
+      "boundary_keys_change": 0.03333333333333333,
+      "interior_drum_change": 0.1694915254237288,
+      "interior_bass_change": 0.4406779661016949,
+      "interior_guitar_change": 0.4406779661016949,
+      "interior_keys_change": 0.13559322033898305,
+      "context_changes": 12,
+      "ctx_drum_change": 0.3333333333333333,
+      "ctx_bass_change": 0.3333333333333333,
+      "ctx_guitar_change": 0.5833333333333334,
+      "ctx_keys_change": 0.25,
+      "ctx_layers_changed_mean": 1.5,
+      "ctx_layers_changed_fraction": 0.375,
+      "ctx_full_change_rate": 0.25,
+      "ctx_partial_change_rate": 0.4166666666666667,
+      "ctx_no_change_rate": 0.3333333333333333
+    },
+    {
+      "songId": "song010",
+      "title": "LOVE SONG",
+      "bars": 129,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.8222222222222223,
+      "drum_exact_repeat": 0.1328125,
+      "bass_adj_sim": 0.6666666666666666,
+      "bass_exact_repeat": 0.234375,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.6328125,
+      "keys_adj_sim": 0.6666666666666666,
+      "keys_exact_repeat": 0.34375,
+      "db_adj_sim": 0.7733214285714285,
+      "db_exact_repeat": 0.0234375,
+      "db_family_run_median": 4.0,
+      "db_family_run_p75": 6.75,
+      "db_joint_active_in_stable_runs": 0.8319327731092437,
+      "bass_kick_overlap": 0.8,
+      "bass_snare_overlap": 0.3333333333333333,
+      "bass_offkick": 0.2,
+      "gk_jaccard": 0.5,
+      "gk_exact_rate": 0.18,
+      "guitar_art_ratio": 0.6875,
+      "keys_art_ratio": 0.9375,
+      "bass_art_ratio": 0.7083333333333334,
+      "fill_pos1": 0.03125,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.09375,
+      "end_bass_change": 0.1875,
+      "end_guitar_change": 0.1875,
+      "end_keys_change": 0.21875,
+      "boundary_drum_change": 0.0625,
+      "boundary_bass_change": 0.125,
+      "boundary_guitar_change": 0.09375,
+      "boundary_keys_change": 0.28125,
+      "interior_drum_change": 0.09375,
+      "interior_bass_change": 0.140625,
+      "interior_guitar_change": 0.234375,
+      "interior_keys_change": 0.359375,
+      "context_changes": 17,
+      "ctx_drum_change": 0.11764705882352941,
+      "ctx_bass_change": 0.29411764705882354,
+      "ctx_guitar_change": 0.29411764705882354,
+      "ctx_keys_change": 0.4117647058823529,
+      "ctx_layers_changed_mean": 1.1176470588235294,
+      "ctx_layers_changed_fraction": 0.27941176470588236,
+      "ctx_full_change_rate": 0.17647058823529413,
+      "ctx_partial_change_rate": 0.47058823529411764,
+      "ctx_no_change_rate": 0.35294117647058826
+    },
+    {
+      "songId": "song012",
+      "title": "DESIRE -情熱-",
+      "bars": 174,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.8333333333333334,
+      "drum_exact_repeat": 0.3872832369942196,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.630057803468208,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.7225433526011561,
+      "keys_adj_sim": 0.375,
+      "keys_exact_repeat": 0.3815028901734104,
+      "db_adj_sim": 0.8816666666666667,
+      "db_exact_repeat": 0.3872832369942196,
+      "db_family_run_median": 3.0,
+      "db_family_run_p75": 5.0,
+      "db_joint_active_in_stable_runs": 0.7647058823529411,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.5,
+      "gk_jaccard": 0.16666666666666666,
+      "gk_exact_rate": 0.0,
+      "guitar_art_ratio": 1.0,
+      "keys_art_ratio": 1.0,
+      "bass_art_ratio": 0.9583333333333334,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.2727272727272727,
+      "end_bass_change": 0.29545454545454547,
+      "end_guitar_change": 0.1590909090909091,
+      "end_keys_change": 0.5227272727272727,
+      "boundary_drum_change": 0.23255813953488372,
+      "boundary_bass_change": 0.23255813953488372,
+      "boundary_guitar_change": 0.16279069767441862,
+      "boundary_keys_change": 0.5116279069767442,
+      "interior_drum_change": 0.12790697674418605,
+      "interior_bass_change": 0.19767441860465115,
+      "interior_guitar_change": 0.1511627906976744,
+      "interior_keys_change": 0.5116279069767442,
+      "context_changes": 18,
+      "ctx_drum_change": 0.1111111111111111,
+      "ctx_bass_change": 0.1111111111111111,
+      "ctx_guitar_change": 0.16666666666666666,
+      "ctx_keys_change": 0.4444444444444444,
+      "ctx_layers_changed_mean": 0.8333333333333334,
+      "ctx_layers_changed_fraction": 0.20833333333333334,
+      "ctx_full_change_rate": 0.05555555555555555,
+      "ctx_partial_change_rate": 0.6111111111111112,
+      "ctx_no_change_rate": 0.3333333333333333
+    },
+    {
+      "songId": "song014",
+      "title": "青いイナズマ",
+      "bars": 143,
+      "hasDrums": true,
+      "hasBass": false,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.9666666666666667,
+      "drum_exact_repeat": 0.29577464788732394,
+      "bass_adj_sim": null,
+      "bass_exact_repeat": null,
+      "guitar_adj_sim": 0.4444444444444444,
+      "guitar_exact_repeat": 0.28169014084507044,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.7253521126760564,
+      "db_adj_sim": null,
+      "db_exact_repeat": null,
+      "db_family_run_median": null,
+      "db_family_run_p75": null,
+      "db_joint_active_in_stable_runs": null,
+      "bass_kick_overlap": null,
+      "bass_snare_overlap": null,
+      "bass_offkick": null,
+      "gk_jaccard": 0.3333333333333333,
+      "gk_exact_rate": 0.030303030303030304,
+      "guitar_art_ratio": 0.6818171900841178,
+      "keys_art_ratio": 0.45833333333333337,
+      "bass_art_ratio": null,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.1111111111111111,
+      "end_bass_change": null,
+      "end_guitar_change": 0.4722222222222222,
+      "end_keys_change": 0.25,
+      "boundary_drum_change": 0.1388888888888889,
+      "boundary_bass_change": null,
+      "boundary_guitar_change": 0.6111111111111112,
+      "boundary_keys_change": 0.3055555555555556,
+      "interior_drum_change": 0.1,
+      "interior_bass_change": null,
+      "interior_guitar_change": 0.5285714285714286,
+      "interior_keys_change": 0.2714285714285714,
+      "context_changes": 15,
+      "ctx_drum_change": 0.2,
+      "ctx_bass_change": null,
+      "ctx_guitar_change": 0.5333333333333333,
+      "ctx_keys_change": 0.3333333333333333,
+      "ctx_layers_changed_mean": 1.0666666666666667,
+      "ctx_layers_changed_fraction": 0.35555555555555557,
+      "ctx_full_change_rate": 0.0,
+      "ctx_partial_change_rate": 0.8,
+      "ctx_no_change_rate": 0.2
+    },
+    {
+      "songId": "song015",
+      "title": "DANDELION",
+      "bars": 83,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 1.0,
+      "drum_exact_repeat": 0.7560975609756098,
+      "bass_adj_sim": 0.55,
+      "bass_exact_repeat": 0.25609756097560976,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.7926829268292683,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.6341463414634146,
+      "db_adj_sim": 0.8199999999999998,
+      "db_exact_repeat": 0.23170731707317074,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 7.5,
+      "db_joint_active_in_stable_runs": 0.6428571428571429,
+      "bass_kick_overlap": 1.0,
+      "bass_snare_overlap": 0.0,
+      "bass_offkick": 0.0,
+      "gk_jaccard": 0.625,
+      "gk_exact_rate": 0.125,
+      "guitar_art_ratio": 0.8541666666666666,
+      "keys_art_ratio": 0.9583333333333334,
+      "bass_art_ratio": 0.9583333333333334,
+      "fill_pos1": 0.047619047619047616,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.09523809523809523,
+      "end_bass_change": 0.14285714285714285,
+      "end_guitar_change": 0.09523809523809523,
+      "end_keys_change": 0.23809523809523808,
+      "boundary_drum_change": 0.047619047619047616,
+      "boundary_bass_change": 0.2857142857142857,
+      "boundary_guitar_change": 0.0,
+      "boundary_keys_change": 0.09523809523809523,
+      "interior_drum_change": 0.1,
+      "interior_bass_change": 0.275,
+      "interior_guitar_change": 0.025,
+      "interior_keys_change": 0.275,
+      "context_changes": 3,
+      "ctx_drum_change": 0.3333333333333333,
+      "ctx_bass_change": 0.0,
+      "ctx_guitar_change": 0.0,
+      "ctx_keys_change": 0.3333333333333333,
+      "ctx_layers_changed_mean": 0.6666666666666666,
+      "ctx_layers_changed_fraction": 0.16666666666666666,
+      "ctx_full_change_rate": 0.0,
+      "ctx_partial_change_rate": 0.3333333333333333,
+      "ctx_no_change_rate": 0.6666666666666666
+    },
+    {
+      "songId": "song016",
+      "title": "SUMMER CANDLES",
+      "bars": 197,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.7916666666666666,
+      "drum_exact_repeat": 0.1989795918367347,
+      "bass_adj_sim": 0.5,
+      "bass_exact_repeat": 0.25510204081632654,
+      "guitar_adj_sim": 0.42857142857142855,
+      "guitar_exact_repeat": 0.20918367346938777,
+      "keys_adj_sim": 0.3484848484848485,
+      "keys_exact_repeat": 0.25510204081632654,
+      "db_adj_sim": 0.65,
+      "db_exact_repeat": 0.14795918367346939,
+      "db_family_run_median": 2.0,
+      "db_family_run_p75": 3.0,
+      "db_joint_active_in_stable_runs": 0.3987341772151899,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.0,
+      "bass_offkick": 0.5,
+      "gk_jaccard": 0.25,
+      "gk_exact_rate": 0.18072289156626506,
+      "guitar_art_ratio": 0.6666666666666666,
+      "keys_art_ratio": 7.99993600051193,
+      "bass_art_ratio": 0.9333333333333333,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.02040816326530612,
+      "end_bass_change": 0.3877551020408163,
+      "end_guitar_change": 0.40816326530612246,
+      "end_keys_change": 0.5510204081632653,
+      "boundary_drum_change": 0.10204081632653061,
+      "boundary_bass_change": 0.5306122448979592,
+      "boundary_guitar_change": 0.5714285714285714,
+      "boundary_keys_change": 0.5714285714285714,
+      "interior_drum_change": 0.10204081632653061,
+      "interior_bass_change": 0.5,
+      "interior_guitar_change": 0.5510204081632653,
+      "interior_keys_change": 0.5204081632653061,
+      "context_changes": 16,
+      "ctx_drum_change": 0.0,
+      "ctx_bass_change": 0.75,
+      "ctx_guitar_change": 0.6875,
+      "ctx_keys_change": 0.5625,
+      "ctx_layers_changed_mean": 2.0,
+      "ctx_layers_changed_fraction": 0.5,
+      "ctx_full_change_rate": 0.1875,
+      "ctx_partial_change_rate": 0.8125,
+      "ctx_no_change_rate": 0.0
+    },
+    {
+      "songId": "song020",
+      "title": "魂のルフラン",
+      "bars": 168,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": false,
+      "drum_adj_sim": 1.0,
+      "drum_exact_repeat": 0.688622754491018,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.7664670658682635,
+      "guitar_adj_sim": 0.3076923076923077,
+      "guitar_exact_repeat": 0.2215568862275449,
+      "keys_adj_sim": null,
+      "keys_exact_repeat": null,
+      "db_adj_sim": 0.9999999999999999,
+      "db_exact_repeat": 0.5868263473053892,
+      "db_family_run_median": 20.5,
+      "db_family_run_p75": 29.25,
+      "db_joint_active_in_stable_runs": 1.0,
+      "bass_kick_overlap": 0.3,
+      "bass_snare_overlap": 0.16666666666666666,
+      "bass_offkick": 0.7,
+      "gk_jaccard": null,
+      "gk_exact_rate": null,
+      "guitar_art_ratio": 1.2151432988177808,
+      "keys_art_ratio": null,
+      "bass_art_ratio": 0.725,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.0975609756097561,
+      "end_bass_change": 0.14634146341463414,
+      "end_guitar_change": 0.5609756097560976,
+      "end_keys_change": null,
+      "boundary_drum_change": 0.047619047619047616,
+      "boundary_bass_change": 0.023809523809523808,
+      "boundary_guitar_change": 0.4523809523809524,
+      "boundary_keys_change": null,
+      "interior_drum_change": 0.047619047619047616,
+      "interior_bass_change": 0.047619047619047616,
+      "interior_guitar_change": 0.6190476190476191,
+      "interior_keys_change": null,
+      "context_changes": 24,
+      "ctx_drum_change": 0.08333333333333333,
+      "ctx_bass_change": 0.08333333333333333,
+      "ctx_guitar_change": 0.625,
+      "ctx_keys_change": null,
+      "ctx_layers_changed_mean": 0.7916666666666666,
+      "ctx_layers_changed_fraction": 0.2638888888888889,
+      "ctx_full_change_rate": 0.08333333333333333,
+      "ctx_partial_change_rate": 0.5416666666666666,
+      "ctx_no_change_rate": 0.375
+    },
+    {
+      "songId": "song021",
+      "title": "Give a Reason",
+      "bars": 149,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 1.0,
+      "drum_exact_repeat": 0.5202702702702703,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.7432432432432432,
+      "guitar_adj_sim": 0.7857142857142857,
+      "guitar_exact_repeat": 0.41216216216216217,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.7162162162162162,
+      "db_adj_sim": 0.9520000000000001,
+      "db_exact_repeat": 0.47297297297297297,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 9.0,
+      "db_joint_active_in_stable_runs": 0.8707482993197279,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.5,
+      "gk_jaccard": 0.4,
+      "gk_exact_rate": 0.0,
+      "guitar_art_ratio": 0.875,
+      "keys_art_ratio": 0.78125,
+      "bass_art_ratio": 0.8916666666666667,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.05405405405405406,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.13157894736842105,
+      "end_drum_change": 0.08108108108108109,
+      "end_bass_change": 0.05405405405405406,
+      "end_guitar_change": 0.2702702702702703,
+      "end_keys_change": 0.2702702702702703,
+      "boundary_drum_change": 0.16216216216216217,
+      "boundary_bass_change": 0.2702702702702703,
+      "boundary_guitar_change": 0.3783783783783784,
+      "boundary_keys_change": 0.24324324324324326,
+      "interior_drum_change": 0.17567567567567569,
+      "interior_bass_change": 0.06756756756756757,
+      "interior_guitar_change": 0.2702702702702703,
+      "interior_keys_change": 0.1891891891891892,
+      "context_changes": 21,
+      "ctx_drum_change": 0.09523809523809523,
+      "ctx_bass_change": 0.2857142857142857,
+      "ctx_guitar_change": 0.38095238095238093,
+      "ctx_keys_change": 0.38095238095238093,
+      "ctx_layers_changed_mean": 1.1428571428571428,
+      "ctx_layers_changed_fraction": 0.2857142857142857,
+      "ctx_full_change_rate": 0.23809523809523808,
+      "ctx_partial_change_rate": 0.3333333333333333,
+      "ctx_no_change_rate": 0.42857142857142855
+    },
+    {
+      "songId": "song022",
+      "title": "JUST COMMUNICATION",
+      "bars": 139,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.9047619047619048,
+      "drum_exact_repeat": 0.13768115942028986,
+      "bass_adj_sim": 0.7272727272727273,
+      "bass_exact_repeat": 0.38405797101449274,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.7463768115942029,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.644927536231884,
+      "db_adj_sim": 0.8338311688311688,
+      "db_exact_repeat": 0.043478260869565216,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 7.0,
+      "db_joint_active_in_stable_runs": 0.8372093023255814,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.2222222222222222,
+      "bass_offkick": 0.5,
+      "gk_jaccard": 0.3125,
+      "gk_exact_rate": 0.0273972602739726,
+      "guitar_art_ratio": 0.75,
+      "keys_art_ratio": 0.8888888888888888,
+      "bass_art_ratio": 1.0,
+      "fill_pos1": 0.2571428571428571,
+      "fill_pos2": 0.02857142857142857,
+      "fill_pos3": 0.08823529411764706,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.058823529411764705,
+      "end_bass_change": 0.14705882352941177,
+      "end_guitar_change": 0.08823529411764706,
+      "end_keys_change": 0.23529411764705882,
+      "boundary_drum_change": 0.11428571428571428,
+      "boundary_bass_change": 0.2,
+      "boundary_guitar_change": 0.08571428571428572,
+      "boundary_keys_change": 0.08571428571428572,
+      "interior_drum_change": 0.14492753623188406,
+      "interior_bass_change": 0.2028985507246377,
+      "interior_guitar_change": 0.15942028985507245,
+      "interior_keys_change": 0.3333333333333333,
+      "context_changes": 17,
+      "ctx_drum_change": 0.5294117647058824,
+      "ctx_bass_change": 0.5294117647058824,
+      "ctx_guitar_change": 0.47058823529411764,
+      "ctx_keys_change": 0.5882352941176471,
+      "ctx_layers_changed_mean": 2.1176470588235294,
+      "ctx_layers_changed_fraction": 0.5294117647058824,
+      "ctx_full_change_rate": 0.35294117647058826,
+      "ctx_partial_change_rate": 0.4117647058823529,
+      "ctx_no_change_rate": 0.23529411764705882
+    },
+    {
+      "songId": "song023",
+      "title": "夜明け前",
+      "bars": 125,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.9666666666666667,
+      "drum_exact_repeat": 0.4032258064516129,
+      "bass_adj_sim": 0.8571428571428571,
+      "bass_exact_repeat": 0.4274193548387097,
+      "guitar_adj_sim": 0.46875,
+      "guitar_exact_repeat": 0.33064516129032256,
+      "keys_adj_sim": 0.5993589743589745,
+      "keys_exact_repeat": 0.3548387096774194,
+      "db_adj_sim": 0.8363636363636362,
+      "db_exact_repeat": 0.1693548387096774,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 8.0,
+      "db_joint_active_in_stable_runs": 0.8775510204081632,
+      "bass_kick_overlap": null,
+      "bass_snare_overlap": 0.16666666666666666,
+      "bass_offkick": null,
+      "gk_jaccard": 0.2222222222222222,
+      "gk_exact_rate": 0.02531645569620253,
+      "guitar_art_ratio": 0.992631411767332,
+      "keys_art_ratio": 0.8571418775521703,
+      "bass_art_ratio": 0.8000012800021175,
+      "fill_pos1": 0.03225806451612903,
+      "fill_pos2": 0.21875,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.06451612903225806,
+      "end_drum_change": 0.0,
+      "end_bass_change": 0.0,
+      "end_guitar_change": 0.41935483870967744,
+      "end_keys_change": 0.25806451612903225,
+      "boundary_drum_change": 0.0,
+      "boundary_bass_change": 0.0,
+      "boundary_guitar_change": 0.3870967741935484,
+      "boundary_keys_change": 0.25806451612903225,
+      "interior_drum_change": 0.0967741935483871,
+      "interior_bass_change": 0.22580645161290322,
+      "interior_guitar_change": 0.5967741935483871,
+      "interior_keys_change": 0.4032258064516129,
+      "context_changes": 6,
+      "ctx_drum_change": 0.3333333333333333,
+      "ctx_bass_change": 0.3333333333333333,
+      "ctx_guitar_change": 0.8333333333333334,
+      "ctx_keys_change": 0.3333333333333333,
+      "ctx_layers_changed_mean": 1.8333333333333333,
+      "ctx_layers_changed_fraction": 0.4583333333333333,
+      "ctx_full_change_rate": 0.3333333333333333,
+      "ctx_partial_change_rate": 0.5,
+      "ctx_no_change_rate": 0.16666666666666666
+    },
+    {
+      "songId": "song024",
+      "title": "INVOKE",
+      "bars": 156,
+      "hasDrums": true,
+      "hasBass": false,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 1.0,
+      "drum_exact_repeat": 0.7225806451612903,
+      "bass_adj_sim": null,
+      "bass_exact_repeat": null,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.8,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.7032258064516129,
+      "db_adj_sim": null,
+      "db_exact_repeat": null,
+      "db_family_run_median": null,
+      "db_family_run_p75": null,
+      "db_joint_active_in_stable_runs": null,
+      "bass_kick_overlap": null,
+      "bass_snare_overlap": null,
+      "bass_offkick": null,
+      "gk_jaccard": 0.25,
+      "gk_exact_rate": 0.0,
+      "guitar_art_ratio": 1.0,
+      "keys_art_ratio": 1.0,
+      "bass_art_ratio": null,
+      "fill_pos1": 0.20512820512820512,
+      "fill_pos2": 0.2564102564102564,
+      "fill_pos3": 0.1282051282051282,
+      "fill_pos4": 0.1794871794871795,
+      "end_drum_change": 0.05128205128205128,
+      "end_bass_change": null,
+      "end_guitar_change": 0.15384615384615385,
+      "end_keys_change": 0.38461538461538464,
+      "boundary_drum_change": 0.07692307692307693,
+      "boundary_bass_change": null,
+      "boundary_guitar_change": 0.10256410256410256,
+      "boundary_keys_change": 0.23076923076923078,
+      "interior_drum_change": 0.05194805194805195,
+      "interior_bass_change": null,
+      "interior_guitar_change": 0.15584415584415584,
+      "interior_keys_change": 0.22077922077922077,
+      "context_changes": 21,
+      "ctx_drum_change": 0.14285714285714285,
+      "ctx_bass_change": null,
+      "ctx_guitar_change": 0.23809523809523808,
+      "ctx_keys_change": 0.42857142857142855,
+      "ctx_layers_changed_mean": 0.8095238095238095,
+      "ctx_layers_changed_fraction": 0.26984126984126977,
+      "ctx_full_change_rate": 0.047619047619047616,
+      "ctx_partial_change_rate": 0.5238095238095238,
+      "ctx_no_change_rate": 0.42857142857142855
+    },
+    {
+      "songId": "song028",
+      "title": "君が好きだと叫びたい",
+      "bars": 55,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": false,
+      "drum_adj_sim": 0.8055555555555556,
+      "drum_exact_repeat": 0.18518518518518517,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.5925925925925926,
+      "guitar_adj_sim": 0.5,
+      "guitar_exact_repeat": 0.3333333333333333,
+      "keys_adj_sim": null,
+      "keys_exact_repeat": null,
+      "db_adj_sim": 0.8224999999999999,
+      "db_exact_repeat": 0.14814814814814814,
+      "db_family_run_median": 5.5,
+      "db_family_run_p75": 7.75,
+      "db_joint_active_in_stable_runs": 0.7647058823529411,
+      "bass_kick_overlap": 0.375,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.625,
+      "gk_jaccard": null,
+      "gk_exact_rate": null,
+      "guitar_art_ratio": 1.0,
+      "keys_art_ratio": null,
+      "bass_art_ratio": 1.0,
+      "fill_pos1": 0.07692307692307693,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.07142857142857142,
+      "fill_pos4": 0.14285714285714285,
+      "end_drum_change": 0.14285714285714285,
+      "end_bass_change": 0.21428571428571427,
+      "end_guitar_change": 0.5,
+      "end_keys_change": null,
+      "boundary_drum_change": 0.38461538461538464,
+      "boundary_bass_change": 0.15384615384615385,
+      "boundary_guitar_change": 0.46153846153846156,
+      "boundary_keys_change": null,
+      "interior_drum_change": 0.18518518518518517,
+      "interior_bass_change": 0.14814814814814814,
+      "interior_guitar_change": 0.4444444444444444,
+      "interior_keys_change": null,
+      "context_changes": 3,
+      "ctx_drum_change": 1.0,
+      "ctx_bass_change": 0.3333333333333333,
+      "ctx_guitar_change": 0.6666666666666666,
+      "ctx_keys_change": null,
+      "ctx_layers_changed_mean": 2.0,
+      "ctx_layers_changed_fraction": 0.6666666666666666,
+      "ctx_full_change_rate": 0.3333333333333333,
+      "ctx_partial_change_rate": 0.6666666666666666,
+      "ctx_no_change_rate": 0.0
+    },
+    {
+      "songId": "song029",
+      "title": "灌篮高手 ED",
+      "bars": 136,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": false,
+      "drum_adj_sim": 0.8888888888888888,
+      "drum_exact_repeat": 0.34814814814814815,
+      "bass_adj_sim": 0.9166666666666666,
+      "bass_exact_repeat": 0.45925925925925926,
+      "guitar_adj_sim": 0.875,
+      "guitar_exact_repeat": 0.4444444444444444,
+      "keys_adj_sim": null,
+      "keys_exact_repeat": null,
+      "db_adj_sim": 0.9249999999999999,
+      "db_exact_repeat": 0.2,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 7.0,
+      "db_joint_active_in_stable_runs": 0.8278688524590164,
+      "bass_kick_overlap": 0.25,
+      "bass_snare_overlap": 0.2,
+      "bass_offkick": 0.75,
+      "gk_jaccard": null,
+      "gk_exact_rate": null,
+      "guitar_art_ratio": 1.0,
+      "keys_art_ratio": null,
+      "bass_art_ratio": 1.0,
+      "fill_pos1": 0.029411764705882353,
+      "fill_pos2": 0.029411764705882353,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.058823529411764705,
+      "end_drum_change": 0.17647058823529413,
+      "end_bass_change": 0.11764705882352941,
+      "end_guitar_change": 0.14705882352941177,
+      "end_keys_change": null,
+      "boundary_drum_change": 0.29411764705882354,
+      "boundary_bass_change": 0.20588235294117646,
+      "boundary_guitar_change": 0.23529411764705882,
+      "boundary_keys_change": null,
+      "interior_drum_change": 0.22388059701492538,
+      "interior_bass_change": 0.16417910447761194,
+      "interior_guitar_change": 0.208955223880597,
+      "interior_keys_change": null,
+      "context_changes": 14,
+      "ctx_drum_change": 0.5,
+      "ctx_bass_change": 0.35714285714285715,
+      "ctx_guitar_change": 0.35714285714285715,
+      "ctx_keys_change": null,
+      "ctx_layers_changed_mean": 1.2142857142857142,
+      "ctx_layers_changed_fraction": 0.40476190476190477,
+      "ctx_full_change_rate": 0.21428571428571427,
+      "ctx_partial_change_rate": 0.35714285714285715,
+      "ctx_no_change_rate": 0.42857142857142855
+    },
+    {
+      "songId": "song031",
+      "title": "勇気100%",
+      "bars": 145,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.9487179487179488,
+      "drum_exact_repeat": 0.4583333333333333,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.5555555555555556,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.8680555555555556,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.6041666666666666,
+      "db_adj_sim": 0.9549999999999998,
+      "db_exact_repeat": 0.3472222222222222,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 7.0,
+      "db_joint_active_in_stable_runs": 0.8527131782945736,
+      "bass_kick_overlap": 0.2857142857142857,
+      "bass_snare_overlap": 0.2857142857142857,
+      "bass_offkick": 0.7142857142857143,
+      "gk_jaccard": 0.3333333333333333,
+      "gk_exact_rate": 0.0,
+      "guitar_art_ratio": 0.9777777777777777,
+      "keys_art_ratio": 0.8640625,
+      "bass_art_ratio": 0.8666666666666667,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.05555555555555555,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.08333333333333333,
+      "end_bass_change": 0.027777777777777776,
+      "end_guitar_change": 0.05555555555555555,
+      "end_keys_change": 0.3055555555555556,
+      "boundary_drum_change": 0.08333333333333333,
+      "boundary_bass_change": 0.027777777777777776,
+      "boundary_guitar_change": 0.05555555555555555,
+      "boundary_keys_change": 0.3055555555555556,
+      "interior_drum_change": 0.2777777777777778,
+      "interior_bass_change": 0.19444444444444445,
+      "interior_guitar_change": 0.16666666666666666,
+      "interior_keys_change": 0.375,
+      "context_changes": 12,
+      "ctx_drum_change": 0.5833333333333334,
+      "ctx_bass_change": 0.4166666666666667,
+      "ctx_guitar_change": 0.25,
+      "ctx_keys_change": 0.75,
+      "ctx_layers_changed_mean": 2.0,
+      "ctx_layers_changed_fraction": 0.5,
+      "ctx_full_change_rate": 0.3333333333333333,
+      "ctx_partial_change_rate": 0.5833333333333334,
+      "ctx_no_change_rate": 0.08333333333333333
+    },
+    {
+      "songId": "song032",
+      "title": "Open Door",
+      "bars": 138,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 1.0,
+      "drum_exact_repeat": 0.5912408759124088,
+      "bass_adj_sim": 0.5,
+      "bass_exact_repeat": 0.08029197080291971,
+      "guitar_adj_sim": 0.8333333333333334,
+      "guitar_exact_repeat": 0.1678832116788321,
+      "keys_adj_sim": 0.5714285714285714,
+      "keys_exact_repeat": 0.08029197080291971,
+      "db_adj_sim": 0.8199999999999998,
+      "db_exact_repeat": 0.058394160583941604,
+      "db_family_run_median": 5.5,
+      "db_family_run_p75": 7.0,
+      "db_joint_active_in_stable_runs": 0.8394160583941606,
+      "bass_kick_overlap": 0.42857142857142855,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.5714285714285714,
+      "gk_jaccard": 0.3333333333333333,
+      "gk_exact_rate": 0.007352941176470588,
+      "guitar_art_ratio": 1.5000240003832634,
+      "keys_art_ratio": 0.8958333333333334,
+      "bass_art_ratio": 0.75,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.058823529411764705,
+      "fill_pos3": 0.05714285714285714,
+      "fill_pos4": 0.14285714285714285,
+      "end_drum_change": 0.05714285714285714,
+      "end_bass_change": 0.14285714285714285,
+      "end_guitar_change": 0.02857142857142857,
+      "end_keys_change": 0.5142857142857142,
+      "boundary_drum_change": 0.058823529411764705,
+      "boundary_bass_change": 0.23529411764705882,
+      "boundary_guitar_change": 0.029411764705882353,
+      "boundary_keys_change": 0.4411764705882353,
+      "interior_drum_change": 0.058823529411764705,
+      "interior_bass_change": 0.17647058823529413,
+      "interior_guitar_change": 0.0,
+      "interior_keys_change": 0.39705882352941174,
+      "context_changes": 15,
+      "ctx_drum_change": 0.0,
+      "ctx_bass_change": 0.2,
+      "ctx_guitar_change": 0.0,
+      "ctx_keys_change": 0.26666666666666666,
+      "ctx_layers_changed_mean": 0.4666666666666667,
+      "ctx_layers_changed_fraction": 0.11666666666666667,
+      "ctx_full_change_rate": 0.0,
+      "ctx_partial_change_rate": 0.3333333333333333,
+      "ctx_no_change_rate": 0.6666666666666666
+    },
+    {
+      "songId": "song033",
+      "title": "Don't Stop Me Now",
+      "bars": 123,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.8708333333333333,
+      "drum_exact_repeat": 0.2540983606557377,
+      "bass_adj_sim": 0.75,
+      "bass_exact_repeat": 0.30327868852459017,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.8278688524590164,
+      "keys_adj_sim": 0.875,
+      "keys_exact_repeat": 0.4016393442622951,
+      "db_adj_sim": 0.801607142857143,
+      "db_exact_repeat": 0.14754098360655737,
+      "db_family_run_median": 3.0,
+      "db_family_run_p75": 9.5,
+      "db_joint_active_in_stable_runs": 0.7912087912087912,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.5,
+      "gk_jaccard": 0.5,
+      "gk_exact_rate": 0.0,
+      "guitar_art_ratio": 0.8333333333333334,
+      "keys_art_ratio": 1.5625,
+      "bass_art_ratio": 0.46808542507945566,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.03225806451612903,
+      "end_bass_change": 0.3225806451612903,
+      "end_guitar_change": 0.06451612903225806,
+      "end_keys_change": 0.0967741935483871,
+      "boundary_drum_change": 0.03225806451612903,
+      "boundary_bass_change": 0.25806451612903225,
+      "boundary_guitar_change": 0.12903225806451613,
+      "boundary_keys_change": 0.06451612903225806,
+      "interior_drum_change": 0.1,
+      "interior_bass_change": 0.2833333333333333,
+      "interior_guitar_change": 0.13333333333333333,
+      "interior_keys_change": 0.05,
+      "context_changes": 10,
+      "ctx_drum_change": 0.1,
+      "ctx_bass_change": 0.4,
+      "ctx_guitar_change": 0.2,
+      "ctx_keys_change": 0.1,
+      "ctx_layers_changed_mean": 0.8,
+      "ctx_layers_changed_fraction": 0.2,
+      "ctx_full_change_rate": 0.0,
+      "ctx_partial_change_rate": 0.6,
+      "ctx_no_change_rate": 0.4
+    },
+    {
+      "songId": "song034",
+      "title": "Another One Bites the Dust",
+      "bars": 86,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.9629629629629629,
+      "drum_exact_repeat": 0.49411764705882355,
+      "bass_adj_sim": 0.375,
+      "bass_exact_repeat": 0.11764705882352941,
+      "guitar_adj_sim": 0.8571428571428571,
+      "guitar_exact_repeat": 0.4470588235294118,
+      "keys_adj_sim": 0.4444444444444444,
+      "keys_exact_repeat": 0.3058823529411765,
+      "db_adj_sim": 0.7525,
+      "db_exact_repeat": 0.07058823529411765,
+      "db_family_run_median": 4.0,
+      "db_family_run_p75": 8.0,
+      "db_joint_active_in_stable_runs": 0.9054054054054054,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.5,
+      "gk_jaccard": 0.36363636363636365,
+      "gk_exact_rate": 0.18518518518518517,
+      "guitar_art_ratio": 0.5625,
+      "keys_art_ratio": 0.5833333333333334,
+      "bass_art_ratio": 0.6041666666666666,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.18181818181818182,
+      "end_bass_change": 0.8636363636363636,
+      "end_guitar_change": 0.5454545454545454,
+      "end_keys_change": 0.5909090909090909,
+      "boundary_drum_change": 0.0,
+      "boundary_bass_change": 0.7142857142857143,
+      "boundary_guitar_change": 0.2857142857142857,
+      "boundary_keys_change": 0.5714285714285714,
+      "interior_drum_change": 0.0,
+      "interior_bass_change": 0.7619047619047619,
+      "interior_guitar_change": 0.2857142857142857,
+      "interior_keys_change": 0.5476190476190477,
+      "context_changes": 12,
+      "ctx_drum_change": 0.16666666666666666,
+      "ctx_bass_change": 0.75,
+      "ctx_guitar_change": 0.5,
+      "ctx_keys_change": 0.5,
+      "ctx_layers_changed_mean": 1.9166666666666667,
+      "ctx_layers_changed_fraction": 0.4791666666666667,
+      "ctx_full_change_rate": 0.4166666666666667,
+      "ctx_partial_change_rate": 0.5833333333333334,
+      "ctx_no_change_rate": 0.0
+    },
+    {
+      "songId": "song036",
+      "title": "It's My Life",
+      "bars": 112,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.8888888888888888,
+      "drum_exact_repeat": 0.07207207207207207,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.7837837837837838,
+      "guitar_adj_sim": 0.5,
+      "guitar_exact_repeat": 0.06306306306306306,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.7747747747747747,
+      "db_adj_sim": 0.9266666666666666,
+      "db_exact_repeat": 0.06306306306306306,
+      "db_family_run_median": 16.0,
+      "db_family_run_p75": 24.0,
+      "db_joint_active_in_stable_runs": 0.92,
+      "bass_kick_overlap": 0.375,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.625,
+      "gk_jaccard": 0.0,
+      "gk_exact_rate": 0.0,
+      "guitar_art_ratio": 0.8880952380952382,
+      "keys_art_ratio": 0.7916666666666667,
+      "bass_art_ratio": 0.8333333333333334,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.17857142857142858,
+      "end_bass_change": 0.25,
+      "end_guitar_change": 0.5,
+      "end_keys_change": 0.14285714285714285,
+      "boundary_drum_change": 0.14285714285714285,
+      "boundary_bass_change": 0.21428571428571427,
+      "boundary_guitar_change": 0.5,
+      "boundary_keys_change": 0.21428571428571427,
+      "interior_drum_change": 0.10909090909090909,
+      "interior_bass_change": 0.16363636363636364,
+      "interior_guitar_change": 0.38181818181818183,
+      "interior_keys_change": 0.21818181818181817,
+      "context_changes": 10,
+      "ctx_drum_change": 0.0,
+      "ctx_bass_change": 0.1,
+      "ctx_guitar_change": 0.5,
+      "ctx_keys_change": 0.2,
+      "ctx_layers_changed_mean": 0.8,
+      "ctx_layers_changed_fraction": 0.2,
+      "ctx_full_change_rate": 0.1,
+      "ctx_partial_change_rate": 0.4,
+      "ctx_no_change_rate": 0.5
+    },
+    {
+      "songId": "song038",
+      "title": "One",
+      "bars": 102,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": false,
+      "drum_adj_sim": 0.8611111111111112,
+      "drum_exact_repeat": 0.06930693069306931,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.5742574257425742,
+      "guitar_adj_sim": 0.8888888888888888,
+      "guitar_exact_repeat": 0.39603960396039606,
+      "keys_adj_sim": null,
+      "keys_exact_repeat": null,
+      "db_adj_sim": 0.8895,
+      "db_exact_repeat": 0.039603960396039604,
+      "db_family_run_median": 8.0,
+      "db_family_run_p75": 11.0,
+      "db_joint_active_in_stable_runs": 0.9629629629629629,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.16666666666666666,
+      "bass_offkick": 0.5,
+      "gk_jaccard": null,
+      "gk_exact_rate": null,
+      "guitar_art_ratio": 16.0,
+      "keys_art_ratio": null,
+      "bass_art_ratio": 0.8723410194662582,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.038461538461538464,
+      "end_drum_change": 0.11538461538461539,
+      "end_bass_change": 0.11538461538461539,
+      "end_guitar_change": 0.07692307692307693,
+      "end_keys_change": null,
+      "boundary_drum_change": 0.0,
+      "boundary_bass_change": 0.0,
+      "boundary_guitar_change": 0.04,
+      "boundary_keys_change": null,
+      "interior_drum_change": 0.0,
+      "interior_bass_change": 0.0,
+      "interior_guitar_change": 0.0,
+      "interior_keys_change": null,
+      "context_changes": 12,
+      "ctx_drum_change": 0.08333333333333333,
+      "ctx_bass_change": 0.08333333333333333,
+      "ctx_guitar_change": 0.0,
+      "ctx_keys_change": null,
+      "ctx_layers_changed_mean": 0.16666666666666666,
+      "ctx_layers_changed_fraction": 0.05555555555555555,
+      "ctx_full_change_rate": 0.0,
+      "ctx_partial_change_rate": 0.16666666666666666,
+      "ctx_no_change_rate": 0.8333333333333334
+    },
+    {
+      "songId": "song039",
+      "title": "Every Breath You Take",
+      "bars": 113,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 1.0,
+      "drum_exact_repeat": 0.5089285714285714,
+      "bass_adj_sim": 0.875,
+      "bass_exact_repeat": 0.38392857142857145,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.8303571428571429,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.8125,
+      "db_adj_sim": 0.9549999999999998,
+      "db_exact_repeat": 0.16071428571428573,
+      "db_family_run_median": 112.0,
+      "db_family_run_p75": 112.0,
+      "db_joint_active_in_stable_runs": 0.9911504424778761,
+      "bass_kick_overlap": 0.375,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.625,
+      "gk_jaccard": 0.375,
+      "gk_exact_rate": 0.0,
+      "guitar_art_ratio": 2.0000128000820703,
+      "keys_art_ratio": 1.1454945460488852,
+      "bass_art_ratio": 0.625,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.0,
+      "end_bass_change": 0.03571428571428571,
+      "end_guitar_change": 0.14285714285714285,
+      "end_keys_change": 0.07142857142857142,
+      "boundary_drum_change": 0.0,
+      "boundary_bass_change": 0.0,
+      "boundary_guitar_change": 0.10714285714285714,
+      "boundary_keys_change": 0.03571428571428571,
+      "interior_drum_change": 0.0,
+      "interior_bass_change": 0.0,
+      "interior_guitar_change": 0.08928571428571429,
+      "interior_keys_change": 0.125,
+      "context_changes": 10,
+      "ctx_drum_change": 0.0,
+      "ctx_bass_change": 0.0,
+      "ctx_guitar_change": 0.2,
+      "ctx_keys_change": 0.1,
+      "ctx_layers_changed_mean": 0.3,
+      "ctx_layers_changed_fraction": 0.075,
+      "ctx_full_change_rate": 0.0,
+      "ctx_partial_change_rate": 0.2,
+      "ctx_no_change_rate": 0.8
+    },
+    {
+      "songId": "song041",
+      "title": "Sweet Child O' Mine",
+      "bars": 180,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": false,
+      "drum_adj_sim": 0.8888888888888888,
+      "drum_exact_repeat": 0.48044692737430167,
+      "bass_adj_sim": 0.6666666666666666,
+      "bass_exact_repeat": 0.1564245810055866,
+      "guitar_adj_sim": 0.6666666666666666,
+      "guitar_exact_repeat": 0.22905027932960895,
+      "keys_adj_sim": null,
+      "keys_exact_repeat": null,
+      "db_adj_sim": 0.8091428571428572,
+      "db_exact_repeat": 0.09497206703910614,
+      "db_family_run_median": 4.0,
+      "db_family_run_p75": 7.0,
+      "db_joint_active_in_stable_runs": 0.8154761904761905,
+      "bass_kick_overlap": 0.6,
+      "bass_snare_overlap": 0.3333333333333333,
+      "bass_offkick": 0.4,
+      "gk_jaccard": null,
+      "gk_exact_rate": null,
+      "guitar_art_ratio": 1.0,
+      "keys_art_ratio": null,
+      "bass_art_ratio": 1.0,
+      "fill_pos1": 0.1111111111111111,
+      "fill_pos2": 0.044444444444444446,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.022222222222222223,
+      "end_bass_change": 0.08888888888888889,
+      "end_guitar_change": 0.3111111111111111,
+      "end_keys_change": null,
+      "boundary_drum_change": 0.15555555555555556,
+      "boundary_bass_change": 0.3111111111111111,
+      "boundary_guitar_change": 0.37777777777777777,
+      "boundary_keys_change": null,
+      "interior_drum_change": 0.0898876404494382,
+      "interior_bass_change": 0.20224719101123595,
+      "interior_guitar_change": 0.3146067415730337,
+      "interior_keys_change": null,
+      "context_changes": 15,
+      "ctx_drum_change": 0.2,
+      "ctx_bass_change": 0.6,
+      "ctx_guitar_change": 0.4,
+      "ctx_keys_change": null,
+      "ctx_layers_changed_mean": 1.2,
+      "ctx_layers_changed_fraction": 0.39999999999999997,
+      "ctx_full_change_rate": 0.13333333333333333,
+      "ctx_partial_change_rate": 0.5333333333333333,
+      "ctx_no_change_rate": 0.3333333333333333
+    },
+    {
+      "songId": "song042",
+      "title": "November Rain",
+      "bars": 170,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.7777777777777777,
+      "drum_exact_repeat": 0.31952662721893493,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.6686390532544378,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.621301775147929,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.6686390532544378,
+      "db_adj_sim": 0.77,
+      "db_exact_repeat": 0.27218934911242604,
+      "db_family_run_median": 4.0,
+      "db_family_run_p75": 7.0,
+      "db_joint_active_in_stable_runs": 0.6946564885496184,
+      "bass_kick_overlap": 0.8,
+      "bass_snare_overlap": 0.225,
+      "bass_offkick": 0.2,
+      "gk_jaccard": 0.25,
+      "gk_exact_rate": 0.04794520547945205,
+      "guitar_art_ratio": 1.0,
+      "keys_art_ratio": 1.0,
+      "bass_art_ratio": 1.0,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.2619047619047619,
+      "end_bass_change": 0.023809523809523808,
+      "end_guitar_change": 0.14285714285714285,
+      "end_keys_change": 0.09523809523809523,
+      "boundary_drum_change": 0.2857142857142857,
+      "boundary_bass_change": 0.23809523809523808,
+      "boundary_guitar_change": 0.16666666666666666,
+      "boundary_keys_change": 0.14285714285714285,
+      "interior_drum_change": 0.15294117647058825,
+      "interior_bass_change": 0.058823529411764705,
+      "interior_guitar_change": 0.21176470588235294,
+      "interior_keys_change": 0.03529411764705882,
+      "context_changes": 17,
+      "ctx_drum_change": 0.23529411764705882,
+      "ctx_bass_change": 0.29411764705882354,
+      "ctx_guitar_change": 0.23529411764705882,
+      "ctx_keys_change": 0.11764705882352941,
+      "ctx_layers_changed_mean": 0.8823529411764706,
+      "ctx_layers_changed_fraction": 0.22058823529411764,
+      "ctx_full_change_rate": 0.058823529411764705,
+      "ctx_partial_change_rate": 0.47058823529411764,
+      "ctx_no_change_rate": 0.47058823529411764
+    },
+    {
+      "songId": "song043",
+      "title": "I Don't Want to Miss a Thing",
+      "bars": 73,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 1.0,
+      "drum_exact_repeat": 0.7746478873239436,
+      "bass_adj_sim": 0.5,
+      "bass_exact_repeat": 0.15492957746478872,
+      "guitar_adj_sim": 0.6666666666666666,
+      "guitar_exact_repeat": 0.43661971830985913,
+      "keys_adj_sim": 0.7,
+      "keys_exact_repeat": 0.15492957746478872,
+      "db_adj_sim": 0.8199999999999998,
+      "db_exact_repeat": 0.15492957746478872,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 8.5,
+      "db_joint_active_in_stable_runs": 0.9206349206349206,
+      "bass_kick_overlap": 0.6,
+      "bass_snare_overlap": 0.0,
+      "bass_offkick": 0.4,
+      "gk_jaccard": 0.25,
+      "gk_exact_rate": 0.15217391304347827,
+      "guitar_art_ratio": 1.0,
+      "keys_art_ratio": 0.9791666666666667,
+      "bass_art_ratio": 0.9791666666666666,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.1111111111111111,
+      "fill_pos3": 0.15789473684210525,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.05555555555555555,
+      "end_bass_change": 0.3333333333333333,
+      "end_guitar_change": 0.5555555555555556,
+      "end_keys_change": 0.2777777777777778,
+      "boundary_drum_change": 0.0,
+      "boundary_bass_change": 0.1111111111111111,
+      "boundary_guitar_change": 0.0,
+      "boundary_keys_change": 0.16666666666666666,
+      "interior_drum_change": 0.05714285714285714,
+      "interior_bass_change": 0.17142857142857143,
+      "interior_guitar_change": 0.2,
+      "interior_keys_change": 0.22857142857142856,
+      "context_changes": 7,
+      "ctx_drum_change": 0.14285714285714285,
+      "ctx_bass_change": 0.0,
+      "ctx_guitar_change": 0.42857142857142855,
+      "ctx_keys_change": 0.42857142857142855,
+      "ctx_layers_changed_mean": 1.0,
+      "ctx_layers_changed_fraction": 0.25,
+      "ctx_full_change_rate": 0.0,
+      "ctx_partial_change_rate": 1.0,
+      "ctx_no_change_rate": 0.0
+    },
+    {
+      "songId": "song045",
+      "title": "Jump",
+      "bars": 124,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": false,
+      "drum_adj_sim": 0.8055555555555555,
+      "drum_exact_repeat": 0.2764227642276423,
+      "bass_adj_sim": 0.625,
+      "bass_exact_repeat": 0.18699186991869918,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.5121951219512195,
+      "keys_adj_sim": null,
+      "keys_exact_repeat": null,
+      "db_adj_sim": 0.732,
+      "db_exact_repeat": 0.15447154471544716,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 7.0,
+      "db_joint_active_in_stable_runs": 0.6190476190476191,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.5,
+      "gk_jaccard": null,
+      "gk_exact_rate": null,
+      "guitar_art_ratio": 3.600023040146744,
+      "keys_art_ratio": null,
+      "bass_art_ratio": 0.5208333333333334,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.06451612903225806,
+      "fill_pos3": 0.06451612903225806,
+      "fill_pos4": 0.03225806451612903,
+      "end_drum_change": 0.22580645161290322,
+      "end_bass_change": 0.3225806451612903,
+      "end_guitar_change": 0.45161290322580644,
+      "end_keys_change": null,
+      "boundary_drum_change": 0.16129032258064516,
+      "boundary_bass_change": 0.2903225806451613,
+      "boundary_guitar_change": 0.3870967741935484,
+      "boundary_keys_change": null,
+      "interior_drum_change": 0.16393442622950818,
+      "interior_bass_change": 0.3114754098360656,
+      "interior_guitar_change": 0.39344262295081966,
+      "interior_keys_change": null,
+      "context_changes": 11,
+      "ctx_drum_change": 0.0,
+      "ctx_bass_change": 0.45454545454545453,
+      "ctx_guitar_change": 0.36363636363636365,
+      "ctx_keys_change": null,
+      "ctx_layers_changed_mean": 0.8181818181818182,
+      "ctx_layers_changed_fraction": 0.2727272727272727,
+      "ctx_full_change_rate": 0.0,
+      "ctx_partial_change_rate": 0.5454545454545454,
+      "ctx_no_change_rate": 0.45454545454545453
+    },
+    {
+      "songId": "song048",
+      "title": "Dreams",
+      "bars": 126,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 1.0,
+      "drum_exact_repeat": 0.56,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.624,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.688,
+      "keys_adj_sim": 0.42857142857142855,
+      "keys_exact_repeat": 0.0,
+      "db_adj_sim": 0.9279999999999999,
+      "db_exact_repeat": 0.36,
+      "db_family_run_median": 14.5,
+      "db_family_run_p75": 30.25,
+      "db_joint_active_in_stable_runs": 0.928,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.0,
+      "bass_offkick": 0.5,
+      "gk_jaccard": 0.5,
+      "gk_exact_rate": 0.0,
+      "guitar_art_ratio": 0.9791666666666666,
+      "keys_art_ratio": 0.9869791666666667,
+      "bass_art_ratio": 0.8402777777777778,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.03125,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.15625,
+      "end_bass_change": 0.125,
+      "end_guitar_change": 0.46875,
+      "end_keys_change": 0.65625,
+      "boundary_drum_change": 0.0,
+      "boundary_bass_change": 0.16129032258064516,
+      "boundary_guitar_change": 0.16129032258064516,
+      "boundary_keys_change": 0.4838709677419355,
+      "interior_drum_change": 0.04838709677419355,
+      "interior_bass_change": 0.0967741935483871,
+      "interior_guitar_change": 0.25806451612903225,
+      "interior_keys_change": 0.5161290322580645,
+      "context_changes": 15,
+      "ctx_drum_change": 0.0,
+      "ctx_bass_change": 0.0,
+      "ctx_guitar_change": 0.6,
+      "ctx_keys_change": 0.6666666666666666,
+      "ctx_layers_changed_mean": 1.2666666666666666,
+      "ctx_layers_changed_fraction": 0.31666666666666665,
+      "ctx_full_change_rate": 0.0,
+      "ctx_partial_change_rate": 1.0,
+      "ctx_no_change_rate": 0.0
+    },
+    {
+      "songId": "song050",
+      "title": "Money for Nothing",
+      "bars": 268,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": false,
+      "drum_adj_sim": 1.0,
+      "drum_exact_repeat": 0.5880149812734082,
+      "bass_adj_sim": 0.6666666666666666,
+      "bass_exact_repeat": 0.1947565543071161,
+      "guitar_adj_sim": 0.8333333333333334,
+      "guitar_exact_repeat": 0.20599250936329588,
+      "keys_adj_sim": null,
+      "keys_exact_repeat": null,
+      "db_adj_sim": 0.8666666666666667,
+      "db_exact_repeat": 0.13108614232209737,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 9.0,
+      "db_joint_active_in_stable_runs": 0.8843537414965986,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.16666666666666666,
+      "bass_offkick": 0.5,
+      "gk_jaccard": null,
+      "gk_exact_rate": null,
+      "guitar_art_ratio": 0.9583333333333334,
+      "keys_art_ratio": null,
+      "bass_art_ratio": 0.7291666666666666,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.029850746268656716,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.09090909090909091,
+      "end_bass_change": 0.21212121212121213,
+      "end_guitar_change": 0.21212121212121213,
+      "end_keys_change": null,
+      "boundary_drum_change": 0.029850746268656716,
+      "boundary_bass_change": 0.08955223880597014,
+      "boundary_guitar_change": 0.13432835820895522,
+      "boundary_keys_change": null,
+      "interior_drum_change": 0.06716417910447761,
+      "interior_bass_change": 0.16417910447761194,
+      "interior_guitar_change": 0.2462686567164179,
+      "interior_keys_change": null,
+      "context_changes": 20,
+      "ctx_drum_change": 0.1,
+      "ctx_bass_change": 0.15,
+      "ctx_guitar_change": 0.25,
+      "ctx_keys_change": null,
+      "ctx_layers_changed_mean": 0.5,
+      "ctx_layers_changed_fraction": 0.16666666666666666,
+      "ctx_full_change_rate": 0.05,
+      "ctx_partial_change_rate": 0.25,
+      "ctx_no_change_rate": 0.7
+    },
+    {
+      "songId": "song051",
+      "title": "Still Loving You",
+      "bars": 124,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": false,
+      "drum_adj_sim": 0.8333333333333334,
+      "drum_exact_repeat": 0.3902439024390244,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.6341463414634146,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.5365853658536586,
+      "keys_adj_sim": null,
+      "keys_exact_repeat": null,
+      "db_adj_sim": 0.89,
+      "db_exact_repeat": 0.3902439024390244,
+      "db_family_run_median": 3.0,
+      "db_family_run_p75": 7.0,
+      "db_joint_active_in_stable_runs": 0.5952380952380952,
+      "bass_kick_overlap": 1.0,
+      "bass_snare_overlap": 0.0,
+      "bass_offkick": 0.0,
+      "gk_jaccard": null,
+      "gk_exact_rate": null,
+      "guitar_art_ratio": 7.03125,
+      "keys_art_ratio": null,
+      "bass_art_ratio": 0.9196428571428571,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.0,
+      "end_bass_change": 0.03225806451612903,
+      "end_guitar_change": 0.06451612903225806,
+      "end_keys_change": null,
+      "boundary_drum_change": 0.0,
+      "boundary_bass_change": 0.03225806451612903,
+      "boundary_guitar_change": 0.1935483870967742,
+      "boundary_keys_change": null,
+      "interior_drum_change": 0.26229508196721313,
+      "interior_bass_change": 0.2459016393442623,
+      "interior_guitar_change": 0.22950819672131148,
+      "interior_keys_change": null,
+      "context_changes": 9,
+      "ctx_drum_change": 0.6666666666666666,
+      "ctx_bass_change": 0.4444444444444444,
+      "ctx_guitar_change": 0.1111111111111111,
+      "ctx_keys_change": null,
+      "ctx_layers_changed_mean": 1.2222222222222223,
+      "ctx_layers_changed_fraction": 0.4074074074074074,
+      "ctx_full_change_rate": 0.1111111111111111,
+      "ctx_partial_change_rate": 0.5555555555555556,
+      "ctx_no_change_rate": 0.3333333333333333
+    },
+    {
+      "songId": "song052",
+      "title": "Down Under",
+      "bars": 94,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.9583333333333334,
+      "drum_exact_repeat": 0.40860215053763443,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.8924731182795699,
+      "guitar_adj_sim": 0.7142857142857143,
+      "guitar_exact_repeat": 0.08602150537634409,
+      "keys_adj_sim": 0.5,
+      "keys_exact_repeat": 0.0,
+      "db_adj_sim": 0.88,
+      "db_exact_repeat": 0.3978494623655914,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 8.5,
+      "db_joint_active_in_stable_runs": 0.8172043010752689,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.5,
+      "bass_offkick": 0.5,
+      "gk_jaccard": 0.23076923076923078,
+      "gk_exact_rate": 0.010752688172043012,
+      "guitar_art_ratio": 3.8399950848062865,
+      "keys_art_ratio": 0.90625,
+      "bass_art_ratio": 0.8229166666666666,
+      "fill_pos1": 0.21739130434782608,
+      "fill_pos2": 0.08695652173913043,
+      "fill_pos3": 0.4583333333333333,
+      "fill_pos4": 0.08333333333333333,
+      "end_drum_change": 0.3333333333333333,
+      "end_bass_change": 0.125,
+      "end_guitar_change": 0.3333333333333333,
+      "end_keys_change": 0.5,
+      "boundary_drum_change": 0.08695652173913043,
+      "boundary_bass_change": 0.043478260869565216,
+      "boundary_guitar_change": 0.17391304347826086,
+      "boundary_keys_change": 0.21739130434782608,
+      "interior_drum_change": 0.17391304347826086,
+      "interior_bass_change": 0.043478260869565216,
+      "interior_guitar_change": 0.13043478260869565,
+      "interior_keys_change": 0.1956521739130435,
+      "context_changes": 7,
+      "ctx_drum_change": 0.42857142857142855,
+      "ctx_bass_change": 0.0,
+      "ctx_guitar_change": 0.5714285714285714,
+      "ctx_keys_change": 0.5714285714285714,
+      "ctx_layers_changed_mean": 1.5714285714285714,
+      "ctx_layers_changed_fraction": 0.39285714285714285,
+      "ctx_full_change_rate": 0.14285714285714285,
+      "ctx_partial_change_rate": 0.7142857142857143,
+      "ctx_no_change_rate": 0.14285714285714285
+    },
+    {
+      "songId": "song053",
+      "title": "Listen to Your Heart",
+      "bars": 117,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.9166666666666666,
+      "drum_exact_repeat": 0.39655172413793105,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.853448275862069,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.7413793103448276,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.5603448275862069,
+      "db_adj_sim": 0.955,
+      "db_exact_repeat": 0.39655172413793105,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 9.0,
+      "db_joint_active_in_stable_runs": 0.9294117647058824,
+      "bass_kick_overlap": 1.0,
+      "bass_snare_overlap": 0.0,
+      "bass_offkick": 0.0,
+      "gk_jaccard": 0.6666666666666666,
+      "gk_exact_rate": 0.4675324675324675,
+      "guitar_art_ratio": 0.9966666666666667,
+      "keys_art_ratio": 0.9944444444444445,
+      "bass_art_ratio": 0.9944444444444445,
+      "fill_pos1": 0.20689655172413793,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.0,
+      "end_bass_change": 0.0,
+      "end_guitar_change": 0.10344827586206896,
+      "end_keys_change": 0.1724137931034483,
+      "boundary_drum_change": 0.1724137931034483,
+      "boundary_bass_change": 0.0,
+      "boundary_guitar_change": 0.13793103448275862,
+      "boundary_keys_change": 0.3448275862068966,
+      "interior_drum_change": 0.15517241379310345,
+      "interior_bass_change": 0.08620689655172414,
+      "interior_guitar_change": 0.22413793103448276,
+      "interior_keys_change": 0.2413793103448276,
+      "context_changes": 13,
+      "ctx_drum_change": 0.23076923076923078,
+      "ctx_bass_change": 0.23076923076923078,
+      "ctx_guitar_change": 0.23076923076923078,
+      "ctx_keys_change": 0.3076923076923077,
+      "ctx_layers_changed_mean": 1.0,
+      "ctx_layers_changed_fraction": 0.25,
+      "ctx_full_change_rate": 0.15384615384615385,
+      "ctx_partial_change_rate": 0.38461538461538464,
+      "ctx_no_change_rate": 0.46153846153846156
+    },
+    {
+      "songId": "song054",
+      "title": "How Do You Do!",
+      "bars": 91,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.8888888888888888,
+      "drum_exact_repeat": 0.3888888888888889,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.7222222222222222,
+      "guitar_adj_sim": 1.0,
+      "guitar_exact_repeat": 0.6666666666666666,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.9111111111111111,
+      "db_adj_sim": 0.9266666666666666,
+      "db_exact_repeat": 0.36666666666666664,
+      "db_family_run_median": 8.0,
+      "db_family_run_p75": 13.25,
+      "db_joint_active_in_stable_runs": 0.8414634146341463,
+      "bass_kick_overlap": 0.375,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.625,
+      "gk_jaccard": 0.25,
+      "gk_exact_rate": 0.0,
+      "guitar_art_ratio": 0.4479166666666667,
+      "keys_art_ratio": 0.6842100653742861,
+      "bass_art_ratio": 0.48936203531031164,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.30434782608695654,
+      "fill_pos4": 0.043478260869565216,
+      "end_drum_change": 0.2608695652173913,
+      "end_bass_change": 0.391304347826087,
+      "end_guitar_change": 0.30434782608695654,
+      "end_keys_change": 0.08695652173913043,
+      "boundary_drum_change": 0.043478260869565216,
+      "boundary_bass_change": 0.13043478260869565,
+      "boundary_guitar_change": 0.17391304347826086,
+      "boundary_keys_change": 0.08695652173913043,
+      "interior_drum_change": 0.09090909090909091,
+      "interior_bass_change": 0.11363636363636363,
+      "interior_guitar_change": 0.1590909090909091,
+      "interior_keys_change": 0.09090909090909091,
+      "context_changes": 7,
+      "ctx_drum_change": 0.42857142857142855,
+      "ctx_bass_change": 0.7142857142857143,
+      "ctx_guitar_change": 0.42857142857142855,
+      "ctx_keys_change": 0.0,
+      "ctx_layers_changed_mean": 1.5714285714285714,
+      "ctx_layers_changed_fraction": 0.39285714285714285,
+      "ctx_full_change_rate": 0.2857142857142857,
+      "ctx_partial_change_rate": 0.42857142857142855,
+      "ctx_no_change_rate": 0.2857142857142857
+    },
+    {
+      "songId": "song055",
+      "title": "Sleeping in My Car",
+      "bars": 126,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 0.9583333333333334,
+      "drum_exact_repeat": 0.432,
+      "bass_adj_sim": 0.8571428571428571,
+      "bass_exact_repeat": 0.168,
+      "guitar_adj_sim": 0.75,
+      "guitar_exact_repeat": 0.048,
+      "keys_adj_sim": 0.0,
+      "keys_exact_repeat": 0.072,
+      "db_adj_sim": 0.9099999999999999,
+      "db_exact_repeat": 0.064,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 7.25,
+      "db_joint_active_in_stable_runs": 0.8833333333333333,
+      "bass_kick_overlap": 0.375,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.625,
+      "gk_jaccard": 0.2857142857142857,
+      "gk_exact_rate": 0.029411764705882353,
+      "guitar_art_ratio": 1.4875,
+      "keys_art_ratio": 0.9986111111111112,
+      "bass_art_ratio": 0.625,
+      "fill_pos1": 0.1935483870967742,
+      "fill_pos2": 0.03225806451612903,
+      "fill_pos3": 0.0625,
+      "fill_pos4": 0.0,
+      "end_drum_change": 0.1875,
+      "end_bass_change": 0.1875,
+      "end_guitar_change": 0.125,
+      "end_keys_change": 0.9375,
+      "boundary_drum_change": 0.06451612903225806,
+      "boundary_bass_change": 0.06451612903225806,
+      "boundary_guitar_change": 0.06451612903225806,
+      "boundary_keys_change": 0.9032258064516129,
+      "interior_drum_change": 0.0967741935483871,
+      "interior_bass_change": 0.0967741935483871,
+      "interior_guitar_change": 0.0967741935483871,
+      "interior_keys_change": 0.9193548387096774,
+      "context_changes": 12,
+      "ctx_drum_change": 0.08333333333333333,
+      "ctx_bass_change": 0.08333333333333333,
+      "ctx_guitar_change": 0.08333333333333333,
+      "ctx_keys_change": 0.9166666666666666,
+      "ctx_layers_changed_mean": 1.1666666666666667,
+      "ctx_layers_changed_fraction": 0.2916666666666667,
+      "ctx_full_change_rate": 0.08333333333333333,
+      "ctx_partial_change_rate": 0.9166666666666666,
+      "ctx_no_change_rate": 0.0
+    },
+    {
+      "songId": "song057",
+      "title": "Let It Be",
+      "bars": 70,
+      "hasDrums": false,
+      "hasBass": true,
+      "hasGuitar": false,
+      "hasKeys": true,
+      "drum_adj_sim": null,
+      "drum_exact_repeat": null,
+      "bass_adj_sim": 0.5,
+      "bass_exact_repeat": 0.10144927536231885,
+      "guitar_adj_sim": null,
+      "guitar_exact_repeat": null,
+      "keys_adj_sim": 0.7,
+      "keys_exact_repeat": 0.0,
+      "db_adj_sim": null,
+      "db_exact_repeat": null,
+      "db_family_run_median": null,
+      "db_family_run_p75": null,
+      "db_joint_active_in_stable_runs": null,
+      "bass_kick_overlap": null,
+      "bass_snare_overlap": null,
+      "bass_offkick": null,
+      "gk_jaccard": null,
+      "gk_exact_rate": null,
+      "guitar_art_ratio": null,
+      "keys_art_ratio": 2.1666666666666665,
+      "bass_art_ratio": 0.921875,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.0,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.0,
+      "end_drum_change": null,
+      "end_bass_change": 0.3888888888888889,
+      "end_guitar_change": null,
+      "end_keys_change": 0.0,
+      "boundary_drum_change": null,
+      "boundary_bass_change": 0.0,
+      "boundary_guitar_change": null,
+      "boundary_keys_change": 0.0,
+      "interior_drum_change": null,
+      "interior_bass_change": 0.47058823529411764,
+      "interior_guitar_change": null,
+      "interior_keys_change": 0.029411764705882353,
+      "context_changes": 8,
+      "ctx_drum_change": null,
+      "ctx_bass_change": 0.25,
+      "ctx_guitar_change": null,
+      "ctx_keys_change": 0.125,
+      "ctx_layers_changed_mean": 0.375,
+      "ctx_layers_changed_fraction": 0.1875,
+      "ctx_full_change_rate": 0.0,
+      "ctx_partial_change_rate": 0.375,
+      "ctx_no_change_rate": 0.625
+    }
+  ],
+  "examples": {
+    "stable_joint_runs": [
+      {
+        "songId": "song008",
+        "title": "SAYONARA",
+        "bars": [
+          26,
+          44
+        ],
+        "length": 19
+      },
+      {
+        "songId": "song009",
+        "title": "未来予想図II",
+        "bars": [
+          62,
+          69
+        ],
+        "length": 8
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          109,
+          117
+        ],
+        "length": 9
+      },
+      {
+        "songId": "song012",
+        "title": "DESIRE -情熱-",
+        "bars": [
+          73,
+          121
+        ],
+        "length": 49
+      },
+      {
+        "songId": "song015",
+        "title": "DANDELION",
+        "bars": [
+          26,
+          33
+        ],
+        "length": 8
+      },
+      {
+        "songId": "song016",
+        "title": "SUMMER CANDLES",
+        "bars": [
+          145,
+          149
+        ],
+        "length": 5
+      },
+      {
+        "songId": "song020",
+        "title": "魂のルフラン",
+        "bars": [
+          31,
+          77
+        ],
+        "length": 47
+      },
+      {
+        "songId": "song021",
+        "title": "Give a Reason",
+        "bars": [
+          22,
+          37
+        ],
+        "length": 16
+      },
+      {
+        "songId": "song022",
+        "title": "JUST COMMUNICATION",
+        "bars": [
+          21,
+          43
+        ],
+        "length": 23
+      },
+      {
+        "songId": "song023",
+        "title": "夜明け前",
+        "bars": [
+          38,
+          59
+        ],
+        "length": 22
+      },
+      {
+        "songId": "song028",
+        "title": "君が好きだと叫びたい",
+        "bars": [
+          12,
+          26
+        ],
+        "length": 15
+      },
+      {
+        "songId": "song029",
+        "title": "灌篮高手 ED",
+        "bars": [
+          55,
+          66
+        ],
+        "length": 12
+      },
+      {
+        "songId": "song031",
+        "title": "勇気100%",
+        "bars": [
+          46,
+          76
+        ],
+        "length": 31
+      },
+      {
+        "songId": "song032",
+        "title": "Open Door",
+        "bars": [
+          109,
+          122
+        ],
+        "length": 14
+      },
+      {
+        "songId": "song033",
+        "title": "Don't Stop Me Now",
+        "bars": [
+          18,
+          36
+        ],
+        "length": 19
+      },
+      {
+        "songId": "song034",
+        "title": "Another One Bites the Dust",
+        "bars": [
+          39,
+          47
+        ],
+        "length": 9
+      },
+      {
+        "songId": "song036",
+        "title": "It's My Life",
+        "bars": [
+          80,
+          111
+        ],
+        "length": 32
+      },
+      {
+        "songId": "song038",
+        "title": "One",
+        "bars": [
+          27,
+          78
+        ],
+        "length": 52
+      },
+      {
+        "songId": "song039",
+        "title": "Every Breath You Take",
+        "bars": [
+          3,
+          114
+        ],
+        "length": 112
+      },
+      {
+        "songId": "song041",
+        "title": "Sweet Child O' Mine",
+        "bars": [
+          157,
+          171
+        ],
+        "length": 15
+      },
+      {
+        "songId": "song042",
+        "title": "November Rain",
+        "bars": [
+          77,
+          87
+        ],
+        "length": 11
+      },
+      {
+        "songId": "song043",
+        "title": "I Don't Want to Miss a Thing",
+        "bars": [
+          51,
+          74
+        ],
+        "length": 24
+      },
+      {
+        "songId": "song045",
+        "title": "Jump",
+        "bars": [
+          118,
+          125
+        ],
+        "length": 8
+      },
+      {
+        "songId": "song048",
+        "title": "Dreams",
+        "bars": [
+          3,
+          41
+        ],
+        "length": 39
+      },
+      {
+        "songId": "song050",
+        "title": "Money for Nothing",
+        "bars": [
+          71,
+          85
+        ],
+        "length": 15
+      },
+      {
+        "songId": "song051",
+        "title": "Still Loving You",
+        "bars": [
+          50,
+          56
+        ],
+        "length": 7
+      },
+      {
+        "songId": "song052",
+        "title": "Down Under",
+        "bars": [
+          63,
+          77
+        ],
+        "length": 15
+      },
+      {
+        "songId": "song053",
+        "title": "Listen to Your Heart",
+        "bars": [
+          86,
+          109
+        ],
+        "length": 24
+      },
+      {
+        "songId": "song054",
+        "title": "How Do You Do!",
+        "bars": [
+          27,
+          50
+        ],
+        "length": 24
+      },
+      {
+        "songId": "song055",
+        "title": "Sleeping in My Car",
+        "bars": [
+          3,
+          26
+        ],
+        "length": 24
+      }
+    ],
+    "phrase_end_drums": [
+      {
+        "songId": "song009",
+        "title": "未来予想図II",
+        "fillPos": [
+          0.0,
+          0.03333333333333333,
+          0.03333333333333333,
+          0.1
+        ]
+      },
+      {
+        "songId": "song021",
+        "title": "Give a Reason",
+        "fillPos": [
+          0.0,
+          0.05405405405405406,
+          0.0,
+          0.13157894736842105
+        ]
+      },
+      {
+        "songId": "song024",
+        "title": "INVOKE",
+        "fillPos": [
+          0.20512820512820512,
+          0.2564102564102564,
+          0.1282051282051282,
+          0.1794871794871795
+        ]
+      },
+      {
+        "songId": "song028",
+        "title": "君が好きだと叫びたい",
+        "fillPos": [
+          0.07692307692307693,
+          0.0,
+          0.07142857142857142,
+          0.14285714285714285
+        ]
+      },
+      {
+        "songId": "song032",
+        "title": "Open Door",
+        "fillPos": [
+          0.0,
+          0.058823529411764705,
+          0.05714285714285714,
+          0.14285714285714285
+        ]
+      },
+      {
+        "songId": "song052",
+        "title": "Down Under",
+        "fillPos": [
+          0.21739130434782608,
+          0.08695652173913043,
+          0.4583333333333333,
+          0.08333333333333333
+        ]
+      }
+    ],
+    "partial_context_changes": [
+      {
+        "songId": "song008",
+        "title": "SAYONARA",
+        "bars": [
+          25,
+          26
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.5
+      },
+      {
+        "songId": "song008",
+        "title": "SAYONARA",
+        "bars": [
+          29,
+          30
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song008",
+        "title": "SAYONARA",
+        "bars": [
+          33,
+          34
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.5
+      },
+      {
+        "songId": "song008",
+        "title": "SAYONARA",
+        "bars": [
+          65,
+          66
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.5
+      },
+      {
+        "songId": "song008",
+        "title": "SAYONARA",
+        "bars": [
+          89,
+          90
+        ],
+        "contexts": [
+          "dense",
+          "sparse"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.5
+      },
+      {
+        "songId": "song008",
+        "title": "SAYONARA",
+        "bars": [
+          113,
+          114
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song008",
+        "title": "SAYONARA",
+        "bars": [
+          121,
+          122
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song008",
+        "title": "SAYONARA",
+        "bars": [
+          137,
+          138
+        ],
+        "contexts": [
+          "middle",
+          "dense"
+        ],
+        "changedLayers": [
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song008",
+        "title": "SAYONARA",
+        "bars": [
+          161,
+          162
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.5
+      },
+      {
+        "songId": "song009",
+        "title": "未来予想図II",
+        "bars": [
+          9,
+          10
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.5
+      },
+      {
+        "songId": "song009",
+        "title": "未来予想図II",
+        "bars": [
+          25,
+          26
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.5
+      },
+      {
+        "songId": "song009",
+        "title": "未来予想図II",
+        "bars": [
+          33,
+          34
+        ],
+        "contexts": [
+          "sparse",
+          "dense"
+        ],
+        "changedLayers": [
+          "drum",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.5
+      },
+      {
+        "songId": "song009",
+        "title": "未来予想図II",
+        "bars": [
+          41,
+          42
+        ],
+        "contexts": [
+          "dense",
+          "sparse"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.5
+      },
+      {
+        "songId": "song009",
+        "title": "未来予想図II",
+        "bars": [
+          85,
+          86
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          25,
+          26
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          29,
+          30
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "bass"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          37,
+          38
+        ],
+        "contexts": [
+          "middle",
+          "dense"
+        ],
+        "changedLayers": [
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          57,
+          58
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          61,
+          62
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "drum",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.5
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          77,
+          78
+        ],
+        "contexts": [
+          "middle",
+          "dense"
+        ],
+        "changedLayers": [
+          "bass",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.5
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          109,
+          110
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          117,
+          118
+        ],
+        "contexts": [
+          "middle",
+          "dense"
+        ],
+        "changedLayers": [
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song012",
+        "title": "DESIRE -情熱-",
+        "bars": [
+          28,
+          29
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song012",
+        "title": "DESIRE -情熱-",
+        "bars": [
+          36,
+          37
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song012",
+        "title": "DESIRE -情熱-",
+        "bars": [
+          64,
+          65
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song012",
+        "title": "DESIRE -情熱-",
+        "bars": [
+          80,
+          81
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song012",
+        "title": "DESIRE -情熱-",
+        "bars": [
+          88,
+          89
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song012",
+        "title": "DESIRE -情熱-",
+        "bars": [
+          104,
+          105
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song012",
+        "title": "DESIRE -情熱-",
+        "bars": [
+          108,
+          109
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      },
+      {
+        "songId": "song012",
+        "title": "DESIRE -情熱-",
+        "bars": [
+          128,
+          129
+        ],
+        "contexts": [
+          "middle",
+          "dense"
+        ],
+        "changedLayers": [
+          "drum"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.25
+      }
+    ],
+    "full_context_changes": [
+      {
+        "songId": "song008",
+        "title": "SAYONARA",
+        "bars": [
+          9,
+          10
+        ],
+        "contexts": [
+          "sparse",
+          "dense"
+        ],
+        "changedLayers": [
+          "drum",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song009",
+        "title": "未来予想図II",
+        "bars": [
+          5,
+          6
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song009",
+        "title": "未来予想図II",
+        "bars": [
+          53,
+          54
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song009",
+        "title": "未来予想図II",
+        "bars": [
+          77,
+          78
+        ],
+        "contexts": [
+          "middle",
+          "dense"
+        ],
+        "changedLayers": [
+          "drum",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          69,
+          70
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          85,
+          86
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song010",
+        "title": "LOVE SONG",
+        "bars": [
+          125,
+          126
+        ],
+        "contexts": [
+          "dense",
+          "sparse"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song012",
+        "title": "DESIRE -情熱-",
+        "bars": [
+          136,
+          137
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song016",
+        "title": "SUMMER CANDLES",
+        "bars": [
+          124,
+          125
+        ],
+        "contexts": [
+          "middle",
+          "dense"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song016",
+        "title": "SUMMER CANDLES",
+        "bars": [
+          140,
+          141
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song016",
+        "title": "SUMMER CANDLES",
+        "bars": [
+          184,
+          185
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song020",
+        "title": "魂のルフラン",
+        "bars": [
+          22,
+          23
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song020",
+        "title": "魂のルフラン",
+        "bars": [
+          86,
+          87
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song021",
+        "title": "Give a Reason",
+        "bars": [
+          19,
+          20
+        ],
+        "contexts": [
+          "dense",
+          "sparse"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song021",
+        "title": "Give a Reason",
+        "bars": [
+          63,
+          64
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song021",
+        "title": "Give a Reason",
+        "bars": [
+          67,
+          68
+        ],
+        "contexts": [
+          "middle",
+          "dense"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song021",
+        "title": "Give a Reason",
+        "bars": [
+          71,
+          72
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song021",
+        "title": "Give a Reason",
+        "bars": [
+          139,
+          140
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song022",
+        "title": "JUST COMMUNICATION",
+        "bars": [
+          8,
+          9
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song022",
+        "title": "JUST COMMUNICATION",
+        "bars": [
+          16,
+          17
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song022",
+        "title": "JUST COMMUNICATION",
+        "bars": [
+          44,
+          45
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song022",
+        "title": "JUST COMMUNICATION",
+        "bars": [
+          60,
+          61
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song022",
+        "title": "JUST COMMUNICATION",
+        "bars": [
+          88,
+          89
+        ],
+        "contexts": [
+          "dense",
+          "middle"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song022",
+        "title": "JUST COMMUNICATION",
+        "bars": [
+          104,
+          105
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song023",
+        "title": "夜明け前",
+        "bars": [
+          77,
+          78
+        ],
+        "contexts": [
+          "middle",
+          "sparse"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song023",
+        "title": "夜明け前",
+        "bars": [
+          85,
+          86
+        ],
+        "contexts": [
+          "sparse",
+          "middle"
+        ],
+        "changedLayers": [
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 0.75
+      },
+      {
+        "songId": "song024",
+        "title": "INVOKE",
+        "bars": [
+          105,
+          106
+        ],
+        "contexts": [
+          "sparse",
+          "dense"
+        ],
+        "changedLayers": [
+          "drum",
+          "guitar",
+          "keys"
+        ],
+        "availableLayers": [
+          "drum",
+          "guitar",
+          "keys"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song028",
+        "title": "君が好きだと叫びたい",
+        "bars": [
+          35,
+          36
+        ],
+        "contexts": [
+          "sparse",
+          "dense"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song029",
+        "title": "灌篮高手 ED",
+        "bars": [
+          32,
+          33
+        ],
+        "contexts": [
+          "sparse",
+          "dense"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "changeFraction": 1.0
+      },
+      {
+        "songId": "song029",
+        "title": "灌篮高手 ED",
+        "bars": [
+          100,
+          101
+        ],
+        "contexts": [
+          "sparse",
+          "dense"
+        ],
+        "changedLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "availableLayers": [
+          "drum",
+          "bass",
+          "guitar"
+        ],
+        "changeFraction": 1.0
+      }
+    ]
+  },
+  "song021": {
+    "summary": {
+      "songId": "song021",
+      "title": "Give a Reason",
+      "bars": 149,
+      "hasDrums": true,
+      "hasBass": true,
+      "hasGuitar": true,
+      "hasKeys": true,
+      "drum_adj_sim": 1.0,
+      "drum_exact_repeat": 0.5202702702702703,
+      "bass_adj_sim": 1.0,
+      "bass_exact_repeat": 0.7432432432432432,
+      "guitar_adj_sim": 0.7857142857142857,
+      "guitar_exact_repeat": 0.41216216216216217,
+      "keys_adj_sim": 1.0,
+      "keys_exact_repeat": 0.7162162162162162,
+      "db_adj_sim": 0.9520000000000001,
+      "db_exact_repeat": 0.47297297297297297,
+      "db_family_run_median": 7.0,
+      "db_family_run_p75": 9.0,
+      "db_joint_active_in_stable_runs": 0.8707482993197279,
+      "bass_kick_overlap": 0.5,
+      "bass_snare_overlap": 0.25,
+      "bass_offkick": 0.5,
+      "gk_jaccard": 0.4,
+      "gk_exact_rate": 0.0,
+      "guitar_art_ratio": 0.875,
+      "keys_art_ratio": 0.78125,
+      "bass_art_ratio": 0.8916666666666667,
+      "fill_pos1": 0.0,
+      "fill_pos2": 0.05405405405405406,
+      "fill_pos3": 0.0,
+      "fill_pos4": 0.13157894736842105,
+      "end_drum_change": 0.08108108108108109,
+      "end_bass_change": 0.05405405405405406,
+      "end_guitar_change": 0.2702702702702703,
+      "end_keys_change": 0.2702702702702703,
+      "boundary_drum_change": 0.16216216216216217,
+      "boundary_bass_change": 0.2702702702702703,
+      "boundary_guitar_change": 0.3783783783783784,
+      "boundary_keys_change": 0.24324324324324326,
+      "interior_drum_change": 0.17567567567567569,
+      "interior_bass_change": 0.06756756756756757,
+      "interior_guitar_change": 0.2702702702702703,
+      "interior_keys_change": 0.1891891891891892,
+      "context_changes": 21,
+      "ctx_drum_change": 0.09523809523809523,
+      "ctx_bass_change": 0.2857142857142857,
+      "ctx_guitar_change": 0.38095238095238093,
+      "ctx_keys_change": 0.38095238095238093,
+      "ctx_layers_changed_mean": 1.1428571428571428,
+      "ctx_layers_changed_fraction": 0.2857142857142857,
+      "ctx_full_change_rate": 0.23809523809523808,
+      "ctx_partial_change_rate": 0.3333333333333333,
+      "ctx_no_change_rate": 0.42857142857142855
+    },
+    "bars": [
+      {
+        "bar": 18,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "keys": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          14
+        ],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 19,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          8,
+          10,
+          12,
+          14
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          8,
+          12
+        ],
+        "keys": [
+          0,
+          3,
+          6,
+          8
+        ],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 20,
+        "context": "sparse",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 21,
+        "context": "sparse",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          12,
+          13,
+          14
+        ],
+        "pulse": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 22,
+        "context": "sparse",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 23,
+        "context": "sparse",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 24,
+        "context": "sparse",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 25,
+        "context": "sparse",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 26,
+        "context": "sparse",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 27,
+        "context": "sparse",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 28,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 29,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 30,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          7,
+          9,
+          12
+        ],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 31,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          7,
+          9,
+          12,
+          15
+        ],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 32,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          7,
+          9,
+          12
+        ],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 33,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          7,
+          9,
+          12,
+          15
+        ],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 34,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          7,
+          9,
+          12
+        ],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 35,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          7,
+          9,
+          12,
+          15
+        ],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 36,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          7,
+          9,
+          12
+        ],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 37,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          7,
+          9,
+          12,
+          15
+        ],
+        "pulse": [
+          2,
+          6
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 38,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 39,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [
+          8,
+          12
+        ],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 40,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [
+          0
+        ],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 41,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "guitar": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 42,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 68,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "keys": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          14
+        ],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 69,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12,
+          15
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          8,
+          12
+        ],
+        "keys": [
+          0,
+          3,
+          6,
+          8,
+          11,
+          14
+        ],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 70,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "keys": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          14
+        ],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 71,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          8,
+          12
+        ],
+        "keys": [
+          0,
+          3,
+          6,
+          8
+        ],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 72,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 73,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 74,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 75,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 76,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 77,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 78,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 79,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [],
+        "pulse": [
+          2,
+          6,
+          10,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15
+        ],
+        "guitar": [
+          0
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 80,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 81,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [
+          8,
+          12
+        ],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 82,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [
+          0
+        ],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 83,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "guitar": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 84,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 85,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "keys": [
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 86,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [
+          0
+        ],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 87,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [
+          0
+        ],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 88,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "keys": [
+          0
+        ],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 89,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          0,
+          4,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "pulse": [],
+        "bass": [
+          0,
+          4,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [],
+        "keys": [],
+        "fill": true,
+        "crash1": true
+      },
+      {
+        "bar": 90,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 91,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 92,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 93,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 94,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 95,
+        "context": "middle",
+        "kick": [
+          0,
+          4,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 96,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      },
+      {
+        "bar": 97,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": false
+      },
+      {
+        "bar": 98,
+        "context": "dense",
+        "kick": [
+          0,
+          4,
+          8,
+          12
+        ],
+        "snare": [
+          4,
+          12
+        ],
+        "pulse": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "bass": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ],
+        "guitar": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "keys": [],
+        "fill": false,
+        "crash1": true
+      }
+    ],
+    "parts": {
+      "drums": [
+        "part_candidate_10"
+      ],
+      "bass": [
+        "part_candidate_04"
+      ],
+      "guitar": [
+        "part_candidate_11",
+        "part_candidate_05"
+      ],
+      "keys": [
+        "part_candidate_03"
+      ]
+    }
+  },
+  "definitions": {
+    "grid": "16th-note bins, 0..15 within 4/4 bar",
+    "jointDBfamily": "consecutive Drum+Bass bars with weighted pattern similarity >=0.72",
+    "layerChanged": "role onset-grid similarity <0.5",
+    "phrasePhase": "4-bar phase independently selected in prior corpus analysis by elevated active-part turnover",
+    "context": "sparse/middle/dense from prior 4-bar corpus-derived texture+density clustering; recurrent flag collapsed"
+  },
+  "evidence": "canonical note events provenance authored_midi/project; instrument family assignments are GM/track-derived and therefore role identity remains weaker than note timing itself"
+}

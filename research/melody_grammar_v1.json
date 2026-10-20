@@ -1,0 +1,1732 @@
+{
+  "version": "Melody Grammar v1",
+  "cohort": {
+    "clean4_4Songs": 33,
+    "candidateMelodyParts": 15,
+    "candidateSongs": 10
+  },
+  "externalTheoryQueries": [
+    "phrase relations aa-prime / aa-prime-b / SRDC",
+    "motive repetition and controlled variation",
+    "keep rhythm/change shape, sequence, shortening/lengthening",
+    "melody across chord changes"
+  ],
+  "corpusBaseline": {
+    "candidateParts": 15,
+    "songs": 10,
+    "barSignatureReuse2plusPerPart": {
+      "n": 15,
+      "p25": 0.6965811965811965,
+      "median": 0.8235294117647058,
+      "p75": 0.9354662291495761,
+      "mean": 0.7728883585648949
+    },
+    "barSignatureReuse3plusPerPart": {
+      "n": 15,
+      "p25": 0.42369345630215194,
+      "median": 0.6595744680851063,
+      "p75": 0.7953860789598859,
+      "mean": 0.5680961843662996
+    },
+    "dominant3NoteAtomShare8barPerPart": {
+      "n": 15,
+      "p25": 0.11057692307692307,
+      "median": 0.14285714285714285,
+      "p75": 0.18457556935817804,
+      "mean": 0.1659168761602484
+    },
+    "intervalCategoryRatePerPart": {
+      "repeat": {
+        "n": 15,
+        "p25": 0.09574189321978382,
+        "median": 0.2661290322580645,
+        "p75": 0.32940648289485497,
+        "mean": 0.218090668770132
+      },
+      "step": {
+        "n": 15,
+        "p25": 0.4216147786946737,
+        "median": 0.49714285714285716,
+        "p75": 0.6198525241066364,
+        "mean": 0.525235507215963
+      },
+      "third": {
+        "n": 15,
+        "p25": 0.08503997371591282,
+        "median": 0.10355987055016182,
+        "p75": 0.1533570892723181,
+        "mean": 0.12287714028752401
+      },
+      "fourth_fifth": {
+        "n": 15,
+        "p25": 0.046597840076100946,
+        "median": 0.0744336569579288,
+        "p75": 0.12432140047206924,
+        "mean": 0.08794703153289193
+      },
+      "large_leap": {
+        "n": 15,
+        "p25": 0.013273973405190088,
+        "median": 0.027093596059113302,
+        "p75": 0.05236256247160381,
+        "mean": 0.04584965219348899
+      }
+    },
+    "restGapBeatsPerPartMedian": {
+      "n": 15,
+      "p25": 0.004166666666662877,
+      "median": 0.021875000000022737,
+      "p75": 0.16145833333331439,
+      "mean": 0.23749999999999716
+    },
+    "evidenceLimit": "melody identity uses explicit track-name weak labels; general corpus estimates are conditional on those candidate tracks"
+  },
+  "candidateParts": [
+    {
+      "songId": "song008",
+      "title": "SAYONARA",
+      "partId": "part_candidate_02",
+      "trackName": "[A-02] Vocal",
+      "events": 407,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song012",
+      "title": "DESIRE -情熱-",
+      "partId": "part_candidate_15",
+      "trackName": "Vocal",
+      "events": 431,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song020",
+      "title": "魂のルフラン",
+      "partId": "part_candidate_01",
+      "trackName": "Melody",
+      "events": 431,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song020",
+      "title": "魂のルフラン",
+      "partId": "part_candidate_08",
+      "trackName": "Percussion & Guitar solo",
+      "events": 225,
+      "polyphonyExtraRatio": 0.05063291139240506
+    },
+    {
+      "songId": "song021",
+      "title": "Give a Reason",
+      "partId": "part_candidate_01",
+      "trackName": "Melody (Syn.Brass)",
+      "events": 553,
+      "polyphonyExtraRatio": 0.0036036036036036037
+    },
+    {
+      "songId": "song022",
+      "title": "JUST COMMUNICATION",
+      "partId": "part_candidate_01",
+      "trackName": "[A-02] ボーカル",
+      "events": 519,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song028",
+      "title": "君が好きだと叫びたい",
+      "partId": "part_candidate_05",
+      "trackName": "Vocal",
+      "events": 176,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song029",
+      "title": "灌篮高手 ED",
+      "partId": "part_candidate_01",
+      "trackName": "Vo",
+      "events": 310,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song029",
+      "title": "灌篮高手 ED",
+      "partId": "part_candidate_02",
+      "trackName": "Vo",
+      "events": 89,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song051",
+      "title": "Still Loving You",
+      "partId": "part_candidate_03",
+      "trackName": "Melody",
+      "events": 249,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song053",
+      "title": "Listen to Your Heart",
+      "partId": "part_candidate_01",
+      "trackName": "Piano-Melodie",
+      "events": 206,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song053",
+      "title": "Listen to Your Heart",
+      "partId": "part_candidate_04",
+      "trackName": "Vocal-Per",
+      "events": 136,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song053",
+      "title": "Listen to Your Heart",
+      "partId": "part_candidate_05",
+      "trackName": "Vocal-Marie",
+      "events": 398,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song053",
+      "title": "Listen to Your Heart",
+      "partId": "part_candidate_07",
+      "trackName": "Piano-Solo",
+      "events": 72,
+      "polyphonyExtraRatio": 0.0
+    },
+    {
+      "songId": "song057",
+      "title": "Let It Be",
+      "partId": "part_candidate_03",
+      "trackName": "Solo Organ",
+      "events": 451,
+      "polyphonyExtraRatio": 0.11568627450980393
+    }
+  ],
+  "perPart": [
+    {
+      "songId": "song008",
+      "title": "SAYONARA",
+      "partId": "part_candidate_02",
+      "trackName": "[A-02] Vocal",
+      "events": 407,
+      "activeBars": 99,
+      "barSignatureReuse2plus": 0.7777777777777778,
+      "barSignatureReuse3plus": 0.43434343434343436,
+      "intervalCategoryRates": {
+        "step": 0.4433497536945813,
+        "third": 0.2413793103448276,
+        "fourth_fifth": 0.07635467980295567,
+        "large_leap": 0.027093596059113302,
+        "repeat": 0.21182266009852216
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 96,
+        "p25": 0.09486607142857142,
+        "median": 0.13333333333333333,
+        "p75": 0.16,
+        "mean": 0.1638455003456091
+      },
+      "interNoteRestGapBeats": {
+        "n": 406,
+        "p25": 0.08333333333331439,
+        "median": 0.08333333333334281,
+        "p75": 0.1666666666666572,
+        "mean": 0.5326867816092001
+      },
+      "consecutive4barRelations": {
+        "different": 32
+      }
+    },
+    {
+      "songId": "song012",
+      "title": "DESIRE -情熱-",
+      "partId": "part_candidate_15",
+      "trackName": "Vocal",
+      "events": 431,
+      "activeBars": 119,
+      "barSignatureReuse2plus": 0.9831932773109243,
+      "barSignatureReuse3plus": 0.7983193277310925,
+      "intervalCategoryRates": {
+        "step": 0.42790697674418604,
+        "third": 0.15348837209302327,
+        "fourth_fifth": 0.07209302325581396,
+        "repeat": 0.3325581395348837,
+        "large_leap": 0.013953488372093023
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 116,
+        "p25": 0.11764705882352941,
+        "median": 0.17391304347826086,
+        "p75": 0.21428571428571427,
+        "mean": 0.17988991896561426
+      },
+      "interNoteRestGapBeats": {
+        "n": 430,
+        "p25": 0.0,
+        "median": 0.25,
+        "p75": 0.25,
+        "mean": 0.6773255813953488
+      },
+      "consecutive4barRelations": {
+        "different": 33
+      }
+    },
+    {
+      "songId": "song020",
+      "title": "魂のルフラン",
+      "partId": "part_candidate_01",
+      "trackName": "Melody",
+      "events": 431,
+      "activeBars": 112,
+      "barSignatureReuse2plus": 0.9642857142857143,
+      "barSignatureReuse3plus": 0.9285714285714286,
+      "intervalCategoryRates": {
+        "fourth_fifth": 0.17674418604651163,
+        "step": 0.586046511627907,
+        "large_leap": 0.08604651162790698,
+        "repeat": 0.10697674418604651,
+        "third": 0.044186046511627906
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 109,
+        "p25": 0.09523809523809523,
+        "median": 0.14285714285714285,
+        "p75": 0.14814814814814814,
+        "mean": 0.13966750729634933
+      },
+      "interNoteRestGapBeats": {
+        "n": 430,
+        "p25": 0.052083333333314386,
+        "median": 0.08333333333331439,
+        "p75": 0.12083333333333712,
+        "mean": 0.4285755813953476
+      },
+      "consecutive4barRelations": {
+        "different": 27,
+        "approximate_variant": 2
+      }
+    },
+    {
+      "songId": "song020",
+      "title": "魂のルフラン",
+      "partId": "part_candidate_08",
+      "trackName": "Percussion & Guitar solo",
+      "events": 225,
+      "activeBars": 46,
+      "barSignatureReuse2plus": 0.45652173913043476,
+      "barSignatureReuse3plus": 0.41304347826086957,
+      "intervalCategoryRates": {
+        "repeat": 0.4330357142857143,
+        "large_leap": 0.08482142857142858,
+        "fourth_fifth": 0.19642857142857142,
+        "third": 0.09821428571428571,
+        "step": 0.1875
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 40,
+        "p25": 0.06451612903225806,
+        "median": 0.13392857142857142,
+        "p75": 0.375,
+        "mean": 0.25453372324630813
+      },
+      "interNoteRestGapBeats": {
+        "n": 224,
+        "p25": 0.0,
+        "median": 0.021875000000022737,
+        "p75": 0.17135416666667425,
+        "mean": 2.266954985119049
+      },
+      "consecutive4barRelations": {
+        "different": 13
+      }
+    },
+    {
+      "songId": "song021",
+      "title": "Give a Reason",
+      "partId": "part_candidate_01",
+      "trackName": "Melody (Syn.Brass)",
+      "events": 553,
+      "activeBars": 103,
+      "barSignatureReuse2plus": 0.8932038834951457,
+      "barSignatureReuse3plus": 0.6601941747572816,
+      "intervalCategoryRates": {
+        "repeat": 0.26811594202898553,
+        "step": 0.5742753623188406,
+        "fourth_fifth": 0.050724637681159424,
+        "third": 0.08695652173913043,
+        "large_leap": 0.019927536231884056
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 102,
+        "p25": 0.075,
+        "median": 0.09545454545454546,
+        "p75": 0.14893617021276595,
+        "mean": 0.1148644178530194
+      },
+      "interNoteRestGapBeats": {
+        "n": 552,
+        "p25": 0.08958333333333712,
+        "median": 0.2760416666666714,
+        "p75": 0.3609374999999986,
+        "mean": 0.37786080917874404
+      },
+      "consecutive4barRelations": {
+        "opening_retained_ending_changed": 1,
+        "approximate_variant": 9,
+        "different": 14,
+        "same_rhythm_pitch_variant": 1
+      }
+    },
+    {
+      "songId": "song022",
+      "title": "JUST COMMUNICATION",
+      "partId": "part_candidate_01",
+      "trackName": "[A-02] ボーカル",
+      "events": 519,
+      "activeBars": 106,
+      "barSignatureReuse2plus": 0.9433962264150944,
+      "barSignatureReuse3plus": 0.7924528301886793,
+      "intervalCategoryRates": {
+        "step": 0.5135135135135135,
+        "repeat": 0.32625482625482627,
+        "fourth_fifth": 0.04247104247104247,
+        "third": 0.11003861003861004,
+        "large_leap": 0.007722007722007722
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 104,
+        "p25": 0.10480943738656986,
+        "median": 0.17073170731707318,
+        "p75": 0.1794871794871795,
+        "mean": 0.1497178295794171
+      },
+      "interNoteRestGapBeats": {
+        "n": 518,
+        "p25": 0.0,
+        "median": 0.14583333333331439,
+        "p75": 0.22916666666668561,
+        "mean": 0.2976592664092663
+      },
+      "consecutive4barRelations": {
+        "different": 25
+      }
+    },
+    {
+      "songId": "song028",
+      "title": "君が好きだと叫びたい",
+      "partId": "part_candidate_05",
+      "trackName": "Vocal",
+      "events": 176,
+      "activeBars": 40,
+      "barSignatureReuse2plus": 0.45,
+      "barSignatureReuse3plus": 0.0,
+      "intervalCategoryRates": {
+        "step": 0.49714285714285716,
+        "fourth_fifth": 0.03428571428571429,
+        "third": 0.14857142857142858,
+        "repeat": 0.28,
+        "large_leap": 0.04
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 39,
+        "p25": 0.059714795008912656,
+        "median": 0.06666666666666667,
+        "p75": 0.09717868338557994,
+        "mean": 0.08331173192897444
+      },
+      "interNoteRestGapBeats": {
+        "n": 175,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "mean": 0.13
+      },
+      "consecutive4barRelations": {
+        "different": 8
+      }
+    },
+    {
+      "songId": "song029",
+      "title": "灌篮高手 ED",
+      "partId": "part_candidate_01",
+      "trackName": "Vo",
+      "events": 310,
+      "activeBars": 84,
+      "barSignatureReuse2plus": 0.7976190476190477,
+      "barSignatureReuse3plus": 0.5595238095238095,
+      "intervalCategoryRates": {
+        "repeat": 0.33980582524271846,
+        "step": 0.45307443365695793,
+        "fourth_fifth": 0.0744336569579288,
+        "third": 0.10355987055016182,
+        "large_leap": 0.02912621359223301
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 83,
+        "p25": 0.14835164835164835,
+        "median": 0.21428571428571427,
+        "p75": 0.25,
+        "mean": 0.20128056574007963
+      },
+      "interNoteRestGapBeats": {
+        "n": 309,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.5,
+        "mean": 0.6688309061488683
+      },
+      "consecutive4barRelations": {
+        "different": 22
+      }
+    },
+    {
+      "songId": "song029",
+      "title": "灌篮高手 ED",
+      "partId": "part_candidate_02",
+      "trackName": "Vo",
+      "events": 89,
+      "activeBars": 47,
+      "barSignatureReuse2plus": 0.7872340425531915,
+      "barSignatureReuse3plus": 0.6595744680851063,
+      "intervalCategoryRates": {
+        "repeat": 0.3977272727272727,
+        "third": 0.07954545454545454,
+        "step": 0.375,
+        "fourth_fifth": 0.14772727272727273
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 26,
+        "p25": 0.14285714285714285,
+        "median": 0.225,
+        "p75": 0.4583333333333333,
+        "mean": 0.3913766788766789
+      },
+      "interNoteRestGapBeats": {
+        "n": 88,
+        "p25": 0.5,
+        "median": 2.5,
+        "p75": 3.625,
+        "mean": 3.289772727272727
+      },
+      "consecutive4barRelations": {
+        "different": 9
+      }
+    },
+    {
+      "songId": "song051",
+      "title": "Still Loving You",
+      "partId": "part_candidate_03",
+      "trackName": "Melody",
+      "events": 249,
+      "activeBars": 69,
+      "barSignatureReuse2plus": 0.927536231884058,
+      "barSignatureReuse3plus": 0.7536231884057971,
+      "intervalCategoryRates": {
+        "step": 0.4153225806451613,
+        "third": 0.1532258064516129,
+        "repeat": 0.2661290322580645,
+        "large_leap": 0.04838709677419355,
+        "fourth_fifth": 0.11693548387096774
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 67,
+        "p25": 0.125,
+        "median": 0.14285714285714285,
+        "p75": 0.2159090909090909,
+        "mean": 0.17259715679587984
+      },
+      "interNoteRestGapBeats": {
+        "n": 248,
+        "p25": 0.125,
+        "median": 0.17708333333331439,
+        "p75": 0.22916666666667496,
+        "mean": 0.8893649193548386
+      },
+      "consecutive4barRelations": {
+        "different": 18,
+        "exact_absolute": 5
+      }
+    },
+    {
+      "songId": "song053",
+      "title": "Listen to Your Heart",
+      "partId": "part_candidate_01",
+      "trackName": "Piano-Melodie",
+      "events": 206,
+      "activeBars": 43,
+      "barSignatureReuse2plus": 0.9069767441860465,
+      "barSignatureReuse3plus": 0.813953488372093,
+      "intervalCategoryRates": {
+        "third": 0.17560975609756097,
+        "fourth_fifth": 0.13170731707317074,
+        "step": 0.6536585365853659,
+        "large_leap": 0.01951219512195122,
+        "repeat": 0.01951219512195122
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 38,
+        "p25": 0.05298719772403983,
+        "median": 0.07333333333333333,
+        "p75": 0.22916666666666666,
+        "mean": 0.16348388352254775
+      },
+      "interNoteRestGapBeats": {
+        "n": 205,
+        "p25": 0.008333333333325754,
+        "median": 0.008333333333325754,
+        "p75": 0.008333333333339965,
+        "mean": 1.5652845528455261
+      },
+      "consecutive4barRelations": {
+        "opening_retained_ending_changed": 1,
+        "different": 8,
+        "same_rhythm_pitch_variant": 1,
+        "exact_absolute": 1
+      }
+    },
+    {
+      "songId": "song053",
+      "title": "Listen to Your Heart",
+      "partId": "part_candidate_04",
+      "trackName": "Vocal-Per",
+      "events": 136,
+      "activeBars": 45,
+      "barSignatureReuse2plus": 1.0,
+      "barSignatureReuse3plus": 1.0,
+      "intervalCategoryRates": {
+        "step": 0.9925925925925926,
+        "fourth_fifth": 0.007407407407407408
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 42,
+        "p25": 0.5,
+        "median": 0.5,
+        "p75": 0.5,
+        "mean": 0.5
+      },
+      "interNoteRestGapBeats": {
+        "n": 135,
+        "p25": 0.008333333333325754,
+        "median": 0.008333333333325754,
+        "p75": 0.008333333333325754,
+        "mean": 2.3448148148148085
+      },
+      "consecutive4barRelations": {
+        "exact_absolute": 5,
+        "different": 7
+      }
+    },
+    {
+      "songId": "song053",
+      "title": "Listen to Your Heart",
+      "partId": "part_candidate_05",
+      "trackName": "Vocal-Marie",
+      "events": 398,
+      "activeBars": 68,
+      "barSignatureReuse2plus": 0.8235294117647058,
+      "barSignatureReuse3plus": 0.4411764705882353,
+      "intervalCategoryRates": {
+        "repeat": 0.17380352644836272,
+        "step": 0.6675062972292192,
+        "third": 0.08312342569269521,
+        "fourth_fifth": 0.06297229219143577,
+        "large_leap": 0.012594458438287154
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 66,
+        "p25": 0.07660377358490567,
+        "median": 0.09615384615384616,
+        "p75": 0.129740980573543,
+        "mean": 0.16609750124865913
+      },
+      "interNoteRestGapBeats": {
+        "n": 397,
+        "p25": 0.008333333333325754,
+        "median": 0.008333333333325754,
+        "p75": 0.00833333333333286,
+        "mean": 0.26051637279596634
+      },
+      "consecutive4barRelations": {
+        "different": 16
+      }
+    },
+    {
+      "songId": "song053",
+      "title": "Listen to Your Heart",
+      "partId": "part_candidate_07",
+      "trackName": "Piano-Solo",
+      "events": 72,
+      "activeBars": 15,
+      "barSignatureReuse2plus": 0.26666666666666666,
+      "barSignatureReuse3plus": 0.26666666666666666,
+      "intervalCategoryRates": {
+        "step": 0.7183098591549296,
+        "third": 0.09859154929577464,
+        "repeat": 0.08450704225352113,
+        "fourth_fifth": 0.04225352112676056,
+        "large_leap": 0.056338028169014086
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 14,
+        "p25": 0.11607142857142856,
+        "median": 0.19523809523809524,
+        "p75": 0.25,
+        "mean": 0.2984771686452358
+      },
+      "interNoteRestGapBeats": {
+        "n": 71,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0,
+        "mean": 0.8928403755868547
+      },
+      "consecutive4barRelations": {
+        "different": 4
+      }
+    },
+    {
+      "songId": "song057",
+      "title": "Let It Be",
+      "partId": "part_candidate_03",
+      "trackName": "Solo Organ",
+      "events": 451,
+      "activeBars": 26,
+      "barSignatureReuse2plus": 0.6153846153846154,
+      "barSignatureReuse3plus": 0.0,
+      "intervalCategoryRates": {
+        "third": 0.26666666666666666,
+        "fourth_fifth": 0.08666666666666667,
+        "large_leap": 0.24222222222222223,
+        "step": 0.37333333333333335,
+        "repeat": 0.03111111111111111
+      },
+      "dominant3NoteAtomShare8bar": {
+        "n": 24,
+        "p25": 0.09090909090909091,
+        "median": 0.125,
+        "p75": 0.22916666666666666,
+        "mean": 0.2114174799372168
+      },
+      "interNoteRestGapBeats": {
+        "n": 450,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.0052083333333143855,
+        "mean": 0.17394675925925912
+      },
+      "consecutive4barRelations": {
+        "different": 5
+      }
+    }
+  ],
+  "song021": {
+    "songId": "song021",
+    "title": "Give a Reason",
+    "partId": "part_candidate_01",
+    "evidence": "track name Melody is weak label; note timing/pitch/duration are authored symbolic MIDI",
+    "activeRegions": [
+      {
+        "startBar": 22,
+        "endBar": 63,
+        "bars": 42
+      },
+      {
+        "startBar": 72,
+        "endBar": 105,
+        "bars": 34
+      },
+      {
+        "startBar": 114,
+        "endBar": 140,
+        "bars": 27
+      }
+    ],
+    "phraseCoordinate": "local 4-bar reset at each continuous melody-active region",
+    "phaseScores": {
+      "method": "local reset at each melody-active region"
+    },
+    "barSignatureReuse2plus": 0.8932038834951457,
+    "barSignatureReuse3plus": 0.6601941747572816,
+    "uniqueBarSignatures": 38,
+    "activeBars": 103,
+    "exact4BarPhraseGroups": [
+      [
+        38,
+        80,
+        114
+      ],
+      [
+        42,
+        84,
+        118
+      ],
+      [
+        22,
+        72
+      ],
+      [
+        34,
+        76
+      ],
+      [
+        46,
+        88
+      ],
+      [
+        50,
+        92
+      ],
+      [
+        54,
+        96
+      ],
+      [
+        58,
+        100
+      ]
+    ],
+    "sameRhythm4BarGroups": [
+      [
+        54,
+        58,
+        96,
+        100
+      ],
+      [
+        38,
+        80,
+        114
+      ],
+      [
+        42,
+        84,
+        118
+      ],
+      [
+        22,
+        72
+      ],
+      [
+        34,
+        76
+      ],
+      [
+        46,
+        88
+      ],
+      [
+        50,
+        92
+      ],
+      [
+        130,
+        134
+      ]
+    ],
+    "phraseFamiliesThreshold072": {
+      "0": [
+        22,
+        26,
+        30,
+        34,
+        72,
+        76
+      ],
+      "1": [
+        38,
+        42,
+        80,
+        84,
+        114,
+        118
+      ],
+      "2": [
+        46,
+        88,
+        122
+      ],
+      "3": [
+        50,
+        54,
+        58,
+        92,
+        96,
+        100
+      ],
+      "4": [
+        126,
+        130,
+        134
+      ]
+    },
+    "consecutivePhraseRelations": [
+      {
+        "a": 22,
+        "b": 26,
+        "similarity": 0.918843114332476,
+        "relation": "opening_retained_ending_changed",
+        "rangeA": 3,
+        "rangeB": 7,
+        "medianPitchA": 73.0,
+        "medianPitchB": 73.0
+      },
+      {
+        "a": 26,
+        "b": 30,
+        "similarity": 0.8882513935340022,
+        "relation": "approximate_variant",
+        "rangeA": 7,
+        "rangeB": 3,
+        "medianPitchA": 73.0,
+        "medianPitchB": 73.0
+      },
+      {
+        "a": 30,
+        "b": 34,
+        "similarity": 0.8627157318646681,
+        "relation": "approximate_variant",
+        "rangeA": 3,
+        "rangeB": 3,
+        "medianPitchA": 73.0,
+        "medianPitchB": 73.0
+      },
+      {
+        "a": 34,
+        "b": 38,
+        "similarity": 0.5119412378178156,
+        "relation": "different",
+        "rangeA": 3,
+        "rangeB": 7,
+        "medianPitchA": 73.0,
+        "medianPitchB": 75.0
+      },
+      {
+        "a": 38,
+        "b": 42,
+        "similarity": 0.7300796163564173,
+        "relation": "approximate_variant",
+        "rangeA": 7,
+        "rangeB": 7,
+        "medianPitchA": 75.0,
+        "medianPitchB": 73.0
+      },
+      {
+        "a": 42,
+        "b": 46,
+        "similarity": 0.4601436781609195,
+        "relation": "different",
+        "rangeA": 7,
+        "rangeB": 9,
+        "medianPitchA": 73.0,
+        "medianPitchB": 77.0
+      },
+      {
+        "a": 46,
+        "b": 50,
+        "similarity": 0.6205778056316911,
+        "relation": "different",
+        "rangeA": 9,
+        "rangeB": 10,
+        "medianPitchA": 77.0,
+        "medianPitchB": 80.0
+      },
+      {
+        "a": 50,
+        "b": 54,
+        "similarity": 0.7837121212121213,
+        "relation": "approximate_variant",
+        "rangeA": 10,
+        "rangeB": 12,
+        "medianPitchA": 80.0,
+        "medianPitchB": 80.0
+      },
+      {
+        "a": 54,
+        "b": 58,
+        "similarity": 0.6952631578947368,
+        "relation": "different",
+        "rangeA": 12,
+        "rangeB": 9,
+        "medianPitchA": 80.0,
+        "medianPitchB": 82.0
+      },
+      {
+        "a": 58,
+        "b": 72,
+        "similarity": 0.4057359307359307,
+        "relation": "different",
+        "rangeA": 9,
+        "rangeB": 3,
+        "medianPitchA": 82.0,
+        "medianPitchB": 73.0
+      },
+      {
+        "a": 72,
+        "b": 76,
+        "similarity": 0.8925484330484331,
+        "relation": "opening_retained_ending_changed",
+        "rangeA": 3,
+        "rangeB": 3,
+        "medianPitchA": 73.0,
+        "medianPitchB": 73.0
+      },
+      {
+        "a": 76,
+        "b": 80,
+        "similarity": 0.5119412378178156,
+        "relation": "different",
+        "rangeA": 3,
+        "rangeB": 7,
+        "medianPitchA": 73.0,
+        "medianPitchB": 75.0
+      },
+      {
+        "a": 80,
+        "b": 84,
+        "similarity": 0.7300796163564173,
+        "relation": "approximate_variant",
+        "rangeA": 7,
+        "rangeB": 7,
+        "medianPitchA": 75.0,
+        "medianPitchB": 73.0
+      },
+      {
+        "a": 84,
+        "b": 88,
+        "similarity": 0.4601436781609195,
+        "relation": "different",
+        "rangeA": 7,
+        "rangeB": 9,
+        "medianPitchA": 73.0,
+        "medianPitchB": 77.0
+      },
+      {
+        "a": 88,
+        "b": 92,
+        "similarity": 0.6205778056316911,
+        "relation": "different",
+        "rangeA": 9,
+        "rangeB": 10,
+        "medianPitchA": 77.0,
+        "medianPitchB": 80.0
+      },
+      {
+        "a": 92,
+        "b": 96,
+        "similarity": 0.7837121212121213,
+        "relation": "approximate_variant",
+        "rangeA": 10,
+        "rangeB": 12,
+        "medianPitchA": 80.0,
+        "medianPitchB": 80.0
+      },
+      {
+        "a": 96,
+        "b": 100,
+        "similarity": 0.6952631578947368,
+        "relation": "different",
+        "rangeA": 12,
+        "rangeB": 9,
+        "medianPitchA": 80.0,
+        "medianPitchB": 82.0
+      },
+      {
+        "a": 100,
+        "b": 114,
+        "similarity": 0.5514646464646464,
+        "relation": "different",
+        "rangeA": 9,
+        "rangeB": 7,
+        "medianPitchA": 82.0,
+        "medianPitchB": 75.0
+      },
+      {
+        "a": 114,
+        "b": 118,
+        "similarity": 0.7300796163564173,
+        "relation": "approximate_variant",
+        "rangeA": 7,
+        "rangeB": 7,
+        "medianPitchA": 75.0,
+        "medianPitchB": 73.0
+      },
+      {
+        "a": 118,
+        "b": 122,
+        "similarity": 0.4808632808632809,
+        "relation": "different",
+        "rangeA": 7,
+        "rangeB": 9,
+        "medianPitchA": 73.0,
+        "medianPitchB": 77.0
+      },
+      {
+        "a": 122,
+        "b": 126,
+        "similarity": 0.4433783321941216,
+        "relation": "different",
+        "rangeA": 9,
+        "rangeB": 10,
+        "medianPitchA": 77.0,
+        "medianPitchB": 79.0
+      },
+      {
+        "a": 126,
+        "b": 130,
+        "similarity": 0.7837121212121213,
+        "relation": "approximate_variant",
+        "rangeA": 10,
+        "rangeB": 9,
+        "medianPitchA": 79.0,
+        "medianPitchB": 81.0
+      },
+      {
+        "a": 130,
+        "b": 134,
+        "similarity": 0.7285526315789473,
+        "relation": "approximate_variant",
+        "rangeA": 9,
+        "rangeB": 12,
+        "medianPitchA": 81.0,
+        "medianPitchB": 81.5
+      }
+    ],
+    "intervalCategoryRates": {
+      "repeat": 0.26811594202898553,
+      "step": 0.5742753623188406,
+      "fourth_fifth": 0.050724637681159424,
+      "third": 0.08695652173913043,
+      "large_leap": 0.019927536231884056
+    },
+    "dominant3NoteAtomShare8bar": {
+      "n": 102,
+      "p25": 0.075,
+      "median": 0.09545454545454546,
+      "p75": 0.14893617021276595,
+      "mean": 0.1148644178530194
+    },
+    "restGapBeats": {
+      "n": 552,
+      "p25": 0.08958333333333712,
+      "median": 0.2760416666666714,
+      "p75": 0.3609374999999986,
+      "mean": 0.37786080917874404
+    },
+    "sameRhythmPhrasePairs": [
+      {
+        "a": 22,
+        "b": 72,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          10,
+          6,
+          8,
+          5
+        ],
+        "rootsB": [
+          10,
+          6,
+          8,
+          5
+        ],
+        "sameRootSequence": true
+      },
+      {
+        "a": 34,
+        "b": 76,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          10,
+          6,
+          8,
+          5
+        ],
+        "rootsB": [
+          10,
+          6,
+          8,
+          5
+        ],
+        "sameRootSequence": true
+      },
+      {
+        "a": 38,
+        "b": 80,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          6,
+          5,
+          1,
+          1
+        ],
+        "rootsB": [
+          6,
+          5,
+          1,
+          1
+        ],
+        "sameRootSequence": true
+      },
+      {
+        "a": 38,
+        "b": 114,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          6,
+          5,
+          1,
+          1
+        ],
+        "rootsB": [
+          6,
+          5,
+          8,
+          5
+        ],
+        "sameRootSequence": false
+      },
+      {
+        "a": 42,
+        "b": 84,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          10,
+          5,
+          7,
+          6
+        ],
+        "rootsB": [
+          10,
+          5,
+          7,
+          6
+        ],
+        "sameRootSequence": true
+      },
+      {
+        "a": 42,
+        "b": 118,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          10,
+          5,
+          7,
+          6
+        ],
+        "rootsB": [
+          8,
+          5,
+          7,
+          6
+        ],
+        "sameRootSequence": false
+      },
+      {
+        "a": 46,
+        "b": 88,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          3,
+          null,
+          7,
+          5
+        ],
+        "rootsB": [
+          3,
+          null,
+          7,
+          5
+        ],
+        "sameRootSequence": true
+      },
+      {
+        "a": 50,
+        "b": 92,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          7,
+          5,
+          7,
+          7
+        ],
+        "rootsB": [
+          7,
+          5,
+          7,
+          7
+        ],
+        "sameRootSequence": true
+      },
+      {
+        "a": 54,
+        "b": 58,
+        "sameRelativePitch": false,
+        "relation": "different",
+        "rootsA": [
+          0,
+          3,
+          7,
+          5
+        ],
+        "rootsB": [
+          7,
+          5,
+          3,
+          2
+        ],
+        "sameRootSequence": false
+      },
+      {
+        "a": 54,
+        "b": 96,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          0,
+          3,
+          7,
+          5
+        ],
+        "rootsB": [
+          0,
+          3,
+          7,
+          5
+        ],
+        "sameRootSequence": true
+      },
+      {
+        "a": 54,
+        "b": 100,
+        "sameRelativePitch": false,
+        "relation": "different",
+        "rootsA": [
+          0,
+          3,
+          7,
+          5
+        ],
+        "rootsB": [
+          7,
+          5,
+          3,
+          2
+        ],
+        "sameRootSequence": false
+      },
+      {
+        "a": 58,
+        "b": 96,
+        "sameRelativePitch": false,
+        "relation": "different",
+        "rootsA": [
+          7,
+          5,
+          3,
+          2
+        ],
+        "rootsB": [
+          0,
+          3,
+          7,
+          5
+        ],
+        "sameRootSequence": false
+      },
+      {
+        "a": 58,
+        "b": 100,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          7,
+          5,
+          3,
+          2
+        ],
+        "rootsB": [
+          7,
+          5,
+          3,
+          2
+        ],
+        "sameRootSequence": true
+      },
+      {
+        "a": 80,
+        "b": 114,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          6,
+          5,
+          1,
+          1
+        ],
+        "rootsB": [
+          6,
+          5,
+          8,
+          5
+        ],
+        "sameRootSequence": false
+      },
+      {
+        "a": 84,
+        "b": 118,
+        "sameRelativePitch": true,
+        "relation": "exact_absolute",
+        "rootsA": [
+          10,
+          5,
+          7,
+          6
+        ],
+        "rootsB": [
+          8,
+          5,
+          7,
+          6
+        ],
+        "sameRootSequence": false
+      },
+      {
+        "a": 96,
+        "b": 100,
+        "sameRelativePitch": false,
+        "relation": "different",
+        "rootsA": [
+          0,
+          3,
+          7,
+          5
+        ],
+        "rootsB": [
+          7,
+          5,
+          3,
+          2
+        ],
+        "sameRootSequence": false
+      },
+      {
+        "a": 130,
+        "b": 134,
+        "sameRelativePitch": false,
+        "relation": "approximate_variant",
+        "rootsA": [
+          7,
+          2,
+          7,
+          3
+        ],
+        "rootsB": [
+          7,
+          3,
+          3,
+          5
+        ],
+        "sameRootSequence": false
+      }
+    ],
+    "phraseWindows": [
+      {
+        "startBar": 22,
+        "n": 24,
+        "range": 3,
+        "medianPitch": 73.0,
+        "roots": [
+          10,
+          6,
+          8,
+          5
+        ]
+      },
+      {
+        "startBar": 26,
+        "n": 25,
+        "range": 7,
+        "medianPitch": 73.0,
+        "roots": [
+          10,
+          6,
+          8,
+          5
+        ]
+      },
+      {
+        "startBar": 30,
+        "n": 23,
+        "range": 3,
+        "medianPitch": 73.0,
+        "roots": [
+          10,
+          6,
+          8,
+          5
+        ]
+      },
+      {
+        "startBar": 34,
+        "n": 26,
+        "range": 3,
+        "medianPitch": 73.0,
+        "roots": [
+          10,
+          6,
+          8,
+          5
+        ]
+      },
+      {
+        "startBar": 38,
+        "n": 22,
+        "range": 7,
+        "medianPitch": 75.0,
+        "roots": [
+          6,
+          5,
+          1,
+          1
+        ]
+      },
+      {
+        "startBar": 42,
+        "n": 21,
+        "range": 7,
+        "medianPitch": 73.0,
+        "roots": [
+          10,
+          5,
+          7,
+          6
+        ]
+      },
+      {
+        "startBar": 46,
+        "n": 21,
+        "range": 9,
+        "medianPitch": 77.0,
+        "roots": [
+          3,
+          null,
+          7,
+          5
+        ]
+      },
+      {
+        "startBar": 50,
+        "n": 22,
+        "range": 10,
+        "medianPitch": 80.0,
+        "roots": [
+          7,
+          5,
+          7,
+          7
+        ]
+      },
+      {
+        "startBar": 54,
+        "n": 20,
+        "range": 12,
+        "medianPitch": 80.0,
+        "roots": [
+          0,
+          3,
+          7,
+          5
+        ]
+      },
+      {
+        "startBar": 58,
+        "n": 20,
+        "range": 9,
+        "medianPitch": 82.0,
+        "roots": [
+          7,
+          5,
+          3,
+          2
+        ]
+      },
+      {
+        "startBar": 72,
+        "n": 24,
+        "range": 3,
+        "medianPitch": 73.0,
+        "roots": [
+          10,
+          6,
+          8,
+          5
+        ]
+      },
+      {
+        "startBar": 76,
+        "n": 26,
+        "range": 3,
+        "medianPitch": 73.0,
+        "roots": [
+          10,
+          6,
+          8,
+          5
+        ]
+      },
+      {
+        "startBar": 80,
+        "n": 22,
+        "range": 7,
+        "medianPitch": 75.0,
+        "roots": [
+          6,
+          5,
+          1,
+          1
+        ]
+      },
+      {
+        "startBar": 84,
+        "n": 21,
+        "range": 7,
+        "medianPitch": 73.0,
+        "roots": [
+          10,
+          5,
+          7,
+          6
+        ]
+      },
+      {
+        "startBar": 88,
+        "n": 21,
+        "range": 9,
+        "medianPitch": 77.0,
+        "roots": [
+          3,
+          null,
+          7,
+          5
+        ]
+      },
+      {
+        "startBar": 92,
+        "n": 22,
+        "range": 10,
+        "medianPitch": 80.0,
+        "roots": [
+          7,
+          5,
+          7,
+          7
+        ]
+      },
+      {
+        "startBar": 96,
+        "n": 20,
+        "range": 12,
+        "medianPitch": 80.0,
+        "roots": [
+          0,
+          3,
+          7,
+          5
+        ]
+      },
+      {
+        "startBar": 100,
+        "n": 20,
+        "range": 9,
+        "medianPitch": 82.0,
+        "roots": [
+          7,
+          5,
+          3,
+          2
+        ]
+      },
+      {
+        "startBar": 114,
+        "n": 22,
+        "range": 7,
+        "medianPitch": 75.0,
+        "roots": [
+          6,
+          5,
+          8,
+          5
+        ]
+      },
+      {
+        "startBar": 118,
+        "n": 21,
+        "range": 7,
+        "medianPitch": 73.0,
+        "roots": [
+          8,
+          5,
+          7,
+          6
+        ]
+      },
+      {
+        "startBar": 122,
+        "n": 18,
+        "range": 9,
+        "medianPitch": 77.0,
+        "roots": [
+          3,
+          null,
+          7,
+          3
+        ]
+      },
+      {
+        "startBar": 126,
+        "n": 22,
+        "range": 10,
+        "medianPitch": 79.0,
+        "roots": [
+          7,
+          3,
+          7,
+          3
+        ]
+      },
+      {
+        "startBar": 130,
+        "n": 20,
+        "range": 9,
+        "medianPitch": 81.0,
+        "roots": [
+          7,
+          2,
+          7,
+          3
+        ]
+      },
+      {
+        "startBar": 134,
+        "n": 20,
+        "range": 12,
+        "medianPitch": 81.5,
+        "roots": [
+          7,
+          3,
+          3,
+          5
+        ]
+      }
+    ]
+  }
+}
